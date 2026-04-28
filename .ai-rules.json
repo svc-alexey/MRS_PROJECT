@@ -1,0 +1,529 @@
+{
+  "protocol": "1.0",
+  "source": "D:\\1c\\MRS_PROJECT\\ai_rules_1c-main",
+  "version": "local",
+  "installedAt": "2026-04-27T18:35:59Z",
+  "updatedAt": "2026-04-27T18:35:59Z",
+  "lastChannel": "powershell",
+  "tools": [
+    "cursor"
+  ],
+  "language": "en",
+  "mcpServers": [
+    "1c-code-metadata-mcp",
+    "1c-syntax-checker-mcp",
+    "1C-docs-mcp",
+    "1c-templates-mcp",
+    "1c-graph-metadata-mcp",
+    "1c-code-check-mcp",
+    "1c-ssl-mcp"
+  ],
+  "files": {
+    ".cursor/rules/anti-patterns.mdc": {
+      "source": "content/rules/anti-patterns.md",
+      "installedHash": "f3305b39bf7025f5a1707c5ac388ea8b2da0f116eb5fdd3d7f5123f0e3ce864f"
+    },
+    ".cursor/rules/dev-standards-architecture.mdc": {
+      "source": "content/rules/dev-standards-architecture.md",
+      "installedHash": "bb04892bdfeef14963085becd452528a30f5e22ab9ea60b46b95932cabb565f3"
+    },
+    ".cursor/rules/dev-standards-core.mdc": {
+      "source": "content/rules/dev-standards-core.md",
+      "installedHash": "7dbec1146521d72deecf5a57998d5914de27cecfc1179156839a9d265765e5be"
+    },
+    ".cursor/rules/dev-standards-forms.mdc": {
+      "source": "content/rules/dev-standards-forms.md",
+      "installedHash": "1b5b5354c8c95bd9a1ab561281b51409a427bb5d6c1a9b3f0f732aeabf250c97"
+    },
+    ".cursor/rules/form-module.mdc": {
+      "source": "content/rules/form-module.md",
+      "installedHash": "9f7d4d7ca7d4d374a7e7a9f9a3d2af63c86d4ea959178c757523de8654204b8e"
+    },
+    ".cursor/rules/forms-add.mdc": {
+      "source": "content/rules/forms-add.md",
+      "installedHash": "2b04e03abbad87fd9232c7a007265e8e6df82793c8037131bc65e6600b122393"
+    },
+    ".cursor/rules/forms-events-add.mdc": {
+      "source": "content/rules/forms-events-add.md",
+      "installedHash": "bf60bdce509a1550b8c7f44eb7139e5960826d08c9974c25a8e134c2aa799328"
+    },
+    ".cursor/rules/getconfigfiles.mdc": {
+      "source": "content/rules/getconfigfiles.md",
+      "installedHash": "3d439c63f6b9476ef5764a2462a77f3f1e2ef2c10a12716a6ba64022886ec8b1"
+    },
+    ".cursor/rules/integrations-add.mdc": {
+      "source": "content/rules/integrations-add.md",
+      "installedHash": "160049b0898bacd7e7e8673883b9f485fed3e39053531e46f2461e5652bb7bbf"
+    },
+    ".cursor/rules/platform-solutions.mdc": {
+      "source": "content/rules/platform-solutions.md",
+      "installedHash": "b86f08ba5b4aa410938fa1b79d169288f13197d4f563d9272d9202cd21ef3163"
+    },
+    ".cursor/rules/refactor-add.mdc": {
+      "source": "content/rules/refactor-add.md",
+      "installedHash": "77a4c53d7e88428818c28793693cbb237c65c1e652e377c49d23f066d1ff64e0"
+    },
+    ".cursor/rules/sdd-integrations.mdc": {
+      "source": "content/rules/sdd-integrations.md",
+      "installedHash": "ae7448cc68cc9ce046e822c3649f7ea59ddf28d3f856c422e182522b5b02a9f1"
+    },
+    ".cursor/rules/tooling-playbooks.mdc": {
+      "source": "content/rules/tooling-playbooks.md",
+      "installedHash": "12e73f12ff8da50162fd2a3070bf6d864de0fcf553e6dc5e66d3a9c08db3dedf"
+    },
+    ".cursor/agents/analytic.md": {
+      "source": "content/agents/analytic.md",
+      "installedHash": "980c6367ea418a0ce964a0881a7d41d43483d0cc19110bb8b784c36702864e06"
+    },
+    ".cursor/agents/arch-reviewer.md": {
+      "source": "content/agents/arch-reviewer.md",
+      "installedHash": "70a758587bbfb53d8f6e824fc8f755951b3a8717c5bdfa6719f6e231ed0d492f"
+    },
+    ".cursor/agents/architect.md": {
+      "source": "content/agents/architect.md",
+      "installedHash": "ddb6141ff24d4b48f2c46462b3755c26118050c77945dc08ec6a79d0b5052ebd"
+    },
+    ".cursor/agents/code-reviewer.md": {
+      "source": "content/agents/code-reviewer.md",
+      "installedHash": "a17e9e05ff93228a6e2fd997f4e45efe0209498a179156f3e61ec9447dca9001"
+    },
+    ".cursor/agents/developer.md": {
+      "source": "content/agents/developer.md",
+      "installedHash": "ef8c2f9df79d7b6d463b28e6b43922eaec97180024dd533abeab0550da74a0d1"
+    },
+    ".cursor/agents/doc-writer.md": {
+      "source": "content/agents/doc-writer.md",
+      "installedHash": "e02c724ff349bda2b7d9189a2dc085d2098ffcc251698ec118e23abf1a4c51f0"
+    },
+    ".cursor/agents/error-fixer.md": {
+      "source": "content/agents/error-fixer.md",
+      "installedHash": "4f84f410e7f882cce34371d338996e2e8c01237874f00478ed37e57e5da96cdd"
+    },
+    ".cursor/agents/metadata-manager.md": {
+      "source": "content/agents/metadata-manager.md",
+      "installedHash": "44ce6722dd2c0ae6b37a2270a9473017efb41fb90601dc6bdc593cc9ef57a9e5"
+    },
+    ".cursor/agents/performance-optimizer.md": {
+      "source": "content/agents/performance-optimizer.md",
+      "installedHash": "669efb7a7286dcf8d22dc198c02253783af800bb3807e6e9f8dd1bfd212ffc6b"
+    },
+    ".cursor/agents/planner.md": {
+      "source": "content/agents/planner.md",
+      "installedHash": "6c765ec45e4da281ce2e90928c143506d092bb09ab0087dd874996603dfacbd0"
+    },
+    ".cursor/agents/refactoring.md": {
+      "source": "content/agents/refactoring.md",
+      "installedHash": "2f54749f68a77f0e2838c3ce9f76331011759ed8f2a3c948a8308cda58d1b646"
+    },
+    ".cursor/agents/tester.md": {
+      "source": "content/agents/tester.md",
+      "installedHash": "f79095fa4adf901acfae384ff78754e0a849c204a67d90234a1c75ea4c43cb0f"
+    },
+    ".cursor/commands/deploy-and-test.md": {
+      "source": "content/commands/deploy-and-test.md",
+      "installedHash": "1b2babef140a849db72cb1c6e5d7354834fda28afbd49642f5ec48b9de8f1b36"
+    },
+    ".cursor/commands/getconfigfiles.md": {
+      "source": "content/commands/getconfigfiles.md",
+      "installedHash": "f83c6eb90be8287a9dba0594d6fa9767b207a3e6f78e4295b34ada52e714a983"
+    },
+    ".cursor/skills/1c-metadata-manage/SKILL.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "f808d74acfb8baf284e8dbf8236e9747803f82a138e3a41a9505b5ed17796288"
+    },
+    ".cursor/skills/1c-metadata-manage/docs/bsp-manage.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "9a8ddbeaec64a93595f605c36c13d06e081a8c21f0ae17a2293578ea57f01474"
+    },
+    ".cursor/skills/1c-metadata-manage/docs/cf-manage.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "3a32352bf2ef375499a2e41bf611150ac000bf115d784e8b52fd1bdda77a9c52"
+    },
+    ".cursor/skills/1c-metadata-manage/docs/cfe-manage.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "f80c3fb6aff3db72302d3071888de47c9dfce393a3a883221fda403d1a25a2a3"
+    },
+    ".cursor/skills/1c-metadata-manage/docs/db-manage.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "25b8a025255c77a2902966538ebff9db699bd66b257cdb144c3f3892b2fd51f4"
+    },
+    ".cursor/skills/1c-metadata-manage/docs/epf-manage.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "e0139389bca71c3c7329b2356a909190fbfb7ce62e2bf043ff5ab23ec6a3d335"
+    },
+    ".cursor/skills/1c-metadata-manage/docs/form-manage.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "91ac3257ce2ccaf94857797cf1a1aea1587ac722ea2eafc4b400f56f1d9995d5"
+    },
+    ".cursor/skills/1c-metadata-manage/docs/help-manage.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "9fd688b516970bdd862f4b890ba5d1067d6c7db0393fc0ac9c8bee9ed7581fe4"
+    },
+    ".cursor/skills/1c-metadata-manage/docs/interface-manage.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "712921a22b81c436a97f5f1c03e3ca1b5851ffce328aa53ca984b928c15d8e5c"
+    },
+    ".cursor/skills/1c-metadata-manage/docs/meta-manage.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "a2ad1bb118d21fa2af6ad7756d3c9c4ce69d5bcc8648350410585502b38287c5"
+    },
+    ".cursor/skills/1c-metadata-manage/docs/mxl-manage.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "908e25d262db43d9a876c419fc8d6e5ae3d556974c5a43e6ddcf6db0af449ac5"
+    },
+    ".cursor/skills/1c-metadata-manage/docs/query-optimization.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "f6852db05cf3551e00c97961197543ee9512cbf4cf9ec25c105d0de0dda595df"
+    },
+    ".cursor/skills/1c-metadata-manage/docs/query-writing.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "9a04d7120e58a8de85699dc364d627a0eb841d56831e53bd5c80a750c5bcbcc0"
+    },
+    ".cursor/skills/1c-metadata-manage/docs/role-manage.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "7a90b7dd899b46d26f7bd873ad1e5d74bb707176d79e69bf72d944ed9fb2d2c2"
+    },
+    ".cursor/skills/1c-metadata-manage/docs/skd-manage.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "68d5dc6ae4c4c41bd345f5d4b97b1b3cfc1cdc701285f62aa4ceb413259e0d2f"
+    },
+    ".cursor/skills/1c-metadata-manage/docs/ssl-patterns.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "337339b8ed72895a95bd6e4380d540352c8438229770407a75bc9fa9deb7ac1e"
+    },
+    ".cursor/skills/1c-metadata-manage/docs/subsystem-manage.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "0e843949bf190b3e5cbfc421cbc5a4fb5e018a61563dafaf132fe1177ca712e4"
+    },
+    ".cursor/skills/1c-metadata-manage/docs/template-manage.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "a9933aa5b87ffdc2177f9a9204c67c5c94392c7f3f7e43c8e3baed1cea9328b2"
+    },
+    ".cursor/skills/1c-metadata-manage/docs/web-manage.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "c5c2c8ded52ae2877283331057afc14ef60e8d9d7672566057157e40ee0ee10c"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-cf-manage/cf-edit-reference.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "e463e0d931429903541b253453b6477a60be6b968146febb86329bf2fc8d13bf"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-cf-manage/scripts/cf-edit.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "12e98281cf8b9fa81bd1f181745e8d0c15d5e073c577c0f7cb8acdd7bc6e5384"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-cf-manage/scripts/cf-info.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "3c6f83d32f568cd318358b8113881937da8823d9681f30feb8b113fcb38bb0a9"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-cf-manage/scripts/cf-init.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "3c3e58f2484b1c9d04ef416543968e5b232c21a6eea62b1dd2384ad00b529bcd"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-cf-manage/scripts/cf-validate.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "3a8faae98962142c8cf980e9a485d51fe19f0b03140dccaf6a52cafe3ce514c8"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-cfe-manage/scripts/cfe-borrow.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "c7a23bd2ee225839ebb21092a9e4af7740f1dc79134bc670e79473335479a6ee"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-cfe-manage/scripts/cfe-diff.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "7432a4be554f0d68c2ac3d5b47ea152a9c8f2f3d5aa0ab1ba66901a41d0b54f5"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-cfe-manage/scripts/cfe-init.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "03524597ffbe7a904b3983dcd0e4dad3cbbd8c539922b7ab22645771a4470035"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-cfe-manage/scripts/cfe-patch-method.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "8710a29622301e7d88b68ac159abab648c5e15f30dd063cebfa421fdedc94ec0"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-cfe-manage/scripts/cfe-validate.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "7add4d80d198ce24aed9c69875c0103967ab6fec2a1c31ebae14af667658b1eb"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-db-ops/scripts/db-create.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "ff50f4e164ee55b36e3c69801ed3b27e6dc316a85f4468b297a1c50ae64f5ad1"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-db-ops/scripts/db-dump-cf.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "e91883aa9fdb10557c48a94bfe632c9778500664c40fff6555dabea246da36cd"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-db-ops/scripts/db-dump-xml.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "2e92ea48ebd7bd119cecf073f9b75871a13aac13bdc3c1353bf16ac14cef7c29"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-db-ops/scripts/db-load-cf.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "9d8d4558fd57f92efb230612a3a2ddfc5b923955e879fdcaa42b56b045279d36"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-db-ops/scripts/db-load-git.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "0d4474ab9affdf18c968e3ffb520d4276df1dc91092c8f02e1f91cad7851c98d"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-db-ops/scripts/db-load-xml.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "f883951087cf92baf6612697060ae05fa80da927ade8d9117525ac20451c8491"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-db-ops/scripts/db-run.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "65ea5b0af65017284661db4bc99ca3fdd78aeeca397ef8fd66fce21c948eb498"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-db-ops/scripts/db-update.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "a9a110cf20fc1c1a6d50b94ef8f0b3786a12699d1cbba45fbb2e1264b510ab15"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-epf-build/scripts/epf-build.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "a3df0f853a3d51602ac45d7959982bee7fdd48485371b8a097a98b2ceecdba11"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-epf-dump/scripts/epf-dump.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "d8b7c26609122f249baeac0c70c81ebe2064311232d1235b419ab8adff22fc06"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-epf-scaffold/scripts/init.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "65aedb9e6f4c485cae1dd9b6026f95da56270520d3f21b2c210268c255b7a60c"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-epf-validate/scripts/epf-validate.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "fd9f3ee7fed0e618560b5efab7d8fecb95a632aa1f2e9ee28fcfa7ebbaf9e2d5"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-erf-scaffold/scripts/init.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "f83dd073331cba0f93659b4fd0aba36c4977b798385a67f6bc4e3d5cb59ddb54"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-form-compile/scripts/form-compile.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "df8e3d122f740a013967672465dbddf4dbd66d4e3e21ccadc5b8fb5aeb27e5c3"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-form-edit/scripts/form-edit.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "d1352e8490e1750720f7fa5d41f8142dfe1130d682c2ea3ec522766b880d2623"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-form-info/scripts/form-info.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "0cdb1c2671aa3f3172f972f65ea1861d2d786d7330c1f17c833787127eeae436"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-form-scaffold/scripts/add-form.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "03d3b58f2febfe56e95e23673a2ef321a1796e237f8c74f76e4397f686add961"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-form-scaffold/scripts/form-add.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "1199d31711d6fa4bb47ac639080eefd1e56fe7d4f3c4a9336e052d3c88be774e"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-form-scaffold/scripts/remove-form.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "1ed4b01dabea17bdf7c07e39d801d7fd6e52e8af941a670cb5943ec208a9f351"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-form-validate/scripts/form-validate.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "27bdba76138e6ca0896aaf406f730d4eb3fe362b9e12d3d52da5e5e6252834b0"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-help-manage/scripts/add-help.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "ef7d0b9b03edfc3a10fecabbb094f91dd5161217fee397e727d908c6dd8b8fcf"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-interface-manage/reference.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "b5d7c60768c3b0bf57f80081ada58e8a138395c270770a888fe074d3000970aa"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-interface-manage/scripts/interface-edit.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "d4d7356605954b252fcc690e7587c8bb9f22cae056bff432f571af8941b68b92"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-interface-manage/scripts/interface-validate.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "62e610e0441857a3bf9ad86939335f0bc5cf08b9a51a31ce7bf9b6770ca5e8fe"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-meta-compile/scripts/meta-compile.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "a59bd2a5e4fbc6b48c0011430388b1bf3886862bfc94cb84e2c8bb9ee29c9183"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-meta-edit/child-operations.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "df6bfad0b2ac9d620a12ce02fa4b6f304567dc1c23db28f8eb0e57e8e1f02638"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-meta-edit/json-dsl.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "671c82ee2148c09f50a793e271f05494c59ec1f3043673a214c063dbfa70963f"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-meta-edit/properties-reference.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "d3131bc6295b5adee4b3ac8687bff7f92faaa7b11619c36afd83155029339f64"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-meta-edit/scripts/meta-edit.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "caff19bb09edb60f209c493195b327261a0bbaf11a0eb4f207b7222a481ecd15"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-meta-info/scripts/meta-info.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "a0203ea28c323102a32b209d08d9bbd826d20ff73b2c3b0f20daa9139bb835a8"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-meta-remove/scripts/meta-remove.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "abb11974081b142f89e1b1003adbe08c27a10f135dbc73bdd6aff293e70d62c4"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-meta-validate/scripts/meta-validate.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "8bda127c8b9825448337e58dd99a89b686bdde88354a351d2c58a16b326a928d"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-mxl-compile/scripts/mxl-compile.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "c87e5efd6a8a378e590fc30512c6d79007dacd97b43cb69e2fa1fc7fb55a8797"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-mxl-decompile/scripts/mxl-decompile.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "1246164951018c78e20e914d35e752485f898ee9505c2b69ed37900435f062e0"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-mxl-info/scripts/mxl-info.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "a657cf06d4c01d763d2bc270b8437c00266876c43abb552889a6e2bab3f2dc7d"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-mxl-validate/scripts/mxl-validate.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "79e6de25de187f9be83ac9098be9435d5a490f98da165ab7bfbd38807fc01ff1"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-role-compile/dsl-reference.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "347f83d90d0d8324aabae833cc894959f2903fc81056afede8a38e50953846cb"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-role-info/scripts/role-info.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "26fb3eddcdb2d31529dbf62da1a2f2af8099a27f5c09151c848b68c62a726e60"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-role-validate/scripts/role-validate.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "f849f77fa892bca1143796e8aa505b5f0f186608cd987b03995bd7cc3010e4c0"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-skd-compile/scripts/skd-compile.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "8f7639a64acabe2f68255267036712977b096a2c428b51eb2363b3d3784b46b8"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-skd-edit/scripts/skd-edit.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "3186edcf2fe3b13e2a84e1fd515e6b386f55072b4dde8413b72177caf7fcd9b9"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-skd-info/modes-reference.md": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "be5966773509aa962ab5f5a9ffd2e1d697ea3154601a054618f57018399f15eb"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-skd-info/scripts/skd-info.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "09378bdc25029b23b5a84a14364dba0d978ca43bf12ef194e3dd307ca1c58fa5"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-skd-validate/scripts/skd-validate.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "73634667748af777f1ed607c35b249dc181944b85ef164d3c9651bd2c89f4e6e"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-subsystem-manage/scripts/subsystem-compile.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "66f361ef31015fa1b97d3f9bea965ff7d57de1fdd13be4ff938686b9012bfd0f"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-subsystem-manage/scripts/subsystem-edit.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "e6411914e102f63ad0ff90467e4a860398ed468e2ef28a79d584719b388487d9"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-subsystem-manage/scripts/subsystem-info.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "b0db533eaeb580efb3bafed3b032ad4c9a6d4e6f36775378d7eb0cc52d2f8210"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-subsystem-manage/scripts/subsystem-validate.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "2b861612d52b42528a95d4290f994f83d6f47976dc4294898c462e071625037e"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-template-manage/scripts/add-template.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "503f27babfb61a9a0d259da16b84cbe1845f05e9c799b5d4b9ae1fe404d12e21"
+    },
+    ".cursor/skills/1c-metadata-manage/tools/1c-template-manage/scripts/remove-template.ps1": {
+      "source": "content/skills/1c-metadata-manage",
+      "installedHash": "de6fc229caae111dac916a686a89b8f2170e127141543b3509db27c48e318560"
+    },
+    ".cursor/skills/img-grid-analysis/SKILL.md": {
+      "source": "content/skills/img-grid-analysis",
+      "installedHash": "a68fab4531823e2ccf32609ad66233981b4bc59bc39b01f8e272ccadc7bbdd29"
+    },
+    ".cursor/skills/img-grid-analysis/scripts/overlay-grid.py": {
+      "source": "content/skills/img-grid-analysis",
+      "installedHash": "7c0b18ede22a1974c250d9a83143ce268ecd5d703c8096cc28441a03ba162b64"
+    },
+    ".cursor/skills/mermaid-diagrams/SKILL.md": {
+      "source": "content/skills/mermaid-diagrams",
+      "installedHash": "3fb9acb6ba4b59e6c5ecdaf95c58023bf0240c19c48af35183f17d9de9f70af3"
+    },
+    ".cursor/skills/powershell-windows/SKILL.md": {
+      "source": "content/skills/powershell-windows",
+      "installedHash": "0a347ee866721fa9c4c389f687e52bdf7e766a735e881b880ebb0591180e0cf1"
+    },
+    ".cursor/commands/opsx-apply.md": {
+      "source": "content/openspec-bundle/cursor/.cursor/commands/opsx-apply.md",
+      "installedHash": "8b70f237978c12211189cae7733a81fd4cbc573eccc5e6d842f6c8f7a9328c7f"
+    },
+    ".cursor/commands/opsx-archive.md": {
+      "source": "content/openspec-bundle/cursor/.cursor/commands/opsx-archive.md",
+      "installedHash": "e6bc801fd54c6c3f62545cc7b9b9b2d11a2d334adb5e43febe074c0992604ffd"
+    },
+    ".cursor/commands/opsx-explore.md": {
+      "source": "content/openspec-bundle/cursor/.cursor/commands/opsx-explore.md",
+      "installedHash": "9c6bdca52f361c97e74bee06ebd3a1e6e6d4b9fde419a407967684ca08435a57"
+    },
+    ".cursor/commands/opsx-propose.md": {
+      "source": "content/openspec-bundle/cursor/.cursor/commands/opsx-propose.md",
+      "installedHash": "26963e841abd3c01f076de5ff055dabd24dd100b471d21fd1bc716acf853d5f4"
+    },
+    ".cursor/skills/openspec-apply-change/SKILL.md": {
+      "source": "content/openspec-bundle/cursor/.cursor/skills/openspec-apply-change/SKILL.md",
+      "installedHash": "c30999a1477d6a8377d7aaa02a82ad322206ffa0cca1ddf7d95618c4577ba10f"
+    },
+    ".cursor/skills/openspec-archive-change/SKILL.md": {
+      "source": "content/openspec-bundle/cursor/.cursor/skills/openspec-archive-change/SKILL.md",
+      "installedHash": "dd8783f590c0488b2026bee9aae2adbc3cda1d7152ab04e9b9cf2ff3924fce50"
+    },
+    ".cursor/skills/openspec-explore/SKILL.md": {
+      "source": "content/openspec-bundle/cursor/.cursor/skills/openspec-explore/SKILL.md",
+      "installedHash": "4f534b22c2e04839f965186a9dd49129dcef318752260f5d67468d0a8d649826"
+    },
+    ".cursor/skills/openspec-propose/SKILL.md": {
+      "source": "content/openspec-bundle/cursor/.cursor/skills/openspec-propose/SKILL.md",
+      "installedHash": "a41d8fda28db18ff9afd548fdc4076c89e492460ac3b8ee0fa4cb33b7034a3e0"
+    },
+    ".cursor/mcp.json": {
+      "source": "content/mcp-servers.json",
+      "installedHash": "8ce84c9d90a798d6bff0502241c28ec060975bf80ccef9863fece2d5ae6e3832"
+    },
+    "AGENTS.md": {
+      "source": "AGENTS.md",
+      "rulesDir": ".cursor/rules",
+      "rulesExt": "mdc",
+      "installedHash": "573e0e1e5955006dbdb23bd582cda923e14cbd9f6b7df487552c8c7e3b930f92"
+    },
+    "USER-RULES.md": {
+      "source": "USER-RULES.md",
+      "template": true,
+      "installedHash": "0ad234f88d65f2a0fefaf3110768fb85d626699a28f7472ea7ac9f6ee6ec9623"
+    },
+    "memory.md": {
+      "source": "memory.md",
+      "template": true,
+      "installedHash": "ff441279a251803ecfa8d605e1dac2ac7c53ff812206c2883e8832b79b7e2587"
+    }
+  },
+  "foreignFiles": {
+    "cursor": []
+  },
+  "integrations": {
+    "openspec": {
+      "detected": true,
+      "files": [
+        "openspec/changes/README.md",
+        "openspec/specs/README.md"
+      ],
+      "scaffolded": true,
+      "artifactsBundleVersion": "1.2.0"
+    }
+  }
+}
