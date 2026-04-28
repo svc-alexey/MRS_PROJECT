@@ -30,6 +30,9 @@
 		<Metadata name="Catalog.ОДМ_БазыДанных.Form.ФормаЭлемента.Form" id="4d01698a-93e4-42f9-95af-3a32712ff908.0" configVersion="59c5791e9da10822664c0e4c591faa91deae3fc8"/>
 		<Metadata name="Catalog.ОДМ_БазыДанных.ManagerModule" id="da3c8fdf-c0fe-43da-b3c7-101cbf3c44e6.3" configVersion="369d8125febe82b58ce2674fa13dd918acd79972"/>
 		<Metadata name="Catalog.ОДМ_БазыДанных.ObjectModule" id="da3c8fdf-c0fe-43da-b3c7-101cbf3c44e6.0" configVersion="f365bf42973a7c4c558ee02e16945ada4c8679b2"/>
+		<Metadata name="Catalog.ОДМ_МетодыИнтеграции" id="0caa0b15-0d38-4ed5-a4a9-d785aa81332d" configVersion="3a6a0e1dce01e1cf435dba39a5b2cca6ec588d00"/>
+		<Metadata name="Catalog.ОДМ_МетодыИнтеграции.Form.ФормаЭлемента" id="8a3711e7-4602-4fb1-a2fd-2770cf573174" configVersion="f58dc090ccf2fe6d0c94d1684545337952f85a65"/>
+		<Metadata name="Catalog.ОДМ_МетодыИнтеграции.Form.ФормаЭлемента.Form" id="8a3711e7-4602-4fb1-a2fd-2770cf573174.0" configVersion="6854ac276fed7616a74b6107c23039454223a00f"/>
 		<Metadata name="Catalog.ОДМ_НастройкиОбмена" id="7363e7b1-4b0e-4715-b8dd-be26b1ff2ddb" configVersion="de8619e12b6269779f1b4955e59affafcd248778">
 			<Metadata name="Catalog.ОДМ_НастройкиОбмена.Attribute.БазаДанных" id="432d3b72-77cd-423c-8fdb-6183d1605226"/>
 			<Metadata name="Catalog.ОДМ_НастройкиОбмена.Attribute.ПравилаРегистрации" id="65880b31-2cf6-4c95-a83c-d9638cbfa5f2"/>
@@ -69,7 +72,7 @@
 		<Metadata name="CommonPicture.ОДМ_ЛоготипПодсистемы.Picture" id="7ea4d22f-19e7-4e62-9885-6cc802539ef8.0" configVersion="6f129e23bdad6075f8b8d023d6d1061b9a40e20e"/>
 		<Metadata name="CommonTemplate.ОДМ_JsonEditor" id="ef7fef81-a5b7-4eb3-b713-355e9db82dfc" configVersion="7221d692ad494fcf87fffddc60eaffd1f2f3053b"/>
 		<Metadata name="CommonTemplate.ОДМ_JsonEditor.Template" id="ef7fef81-a5b7-4eb3-b713-355e9db82dfc.0" configVersion="88fb002939b9aa61c835879c80db60577137bf86"/>
-		<Metadata name="Configuration.ОДМ_xchg" id="8b61c3a4-e354-47c0-b9f9-96fe1fa803e4" configVersion="9b07a501356e1c2479ee0ced614d1376e9fa698d"/>
+		<Metadata name="Configuration.ОДМ_xchg" id="8b61c3a4-e354-47c0-b9f9-96fe1fa803e4" configVersion="1aa452fec93b0ff5b4e34dd5c8ed7cc02c137b59"/>
 		<Metadata name="DataProcessor.ОДМ_xchg" id="9a7699ca-9de0-462c-b0bb-cc8d650c0435" configVersion="040c5e6f1027ea4c62b5e261ff392d41d4cd11b3">
 			<Metadata name="DataProcessor.ОДМ_xchg.Attribute.Соединение" id="03baa54c-a9f2-4031-8dc2-419914b2e256"/>
 			<Metadata name="DataProcessor.ОДМ_xchg.Attribute.Пароль" id="364d2f3f-33bf-41d6-bc07-4e588b968c96"/>
@@ -224,7 +227,7 @@
 		<Metadata name="ScheduledJob.ОДМ_ОбработкаЗадач.Schedule" id="7f7ccba4-393a-457b-9e12-fb232b57b22a.0" configVersion="f1a80b85e0a5474c79dceeb2767da3b0e8b6e2d1"/>
 		<Metadata name="ScheduledJob.ОДМ_ОбработкаУстаревшихЗадач" id="983c176a-0ed0-4470-8f11-0a9473af1331" configVersion="aa14f79379ab71667338afe16b896f34a89f4b91"/>
 		<Metadata name="ScheduledJob.ОДМ_ОбработкаУстаревшихЗадач.Schedule" id="983c176a-0ed0-4470-8f11-0a9473af1331.0" configVersion="8ab1b40d08b108f2863b4791b855ae31f754ceb1"/>
-		<Metadata name="Subsystem.ОДМ_xchg" id="f9ada048-bd59-4f4b-bc56-d6c9b2780293" configVersion="03b72f5271f2a58f39b8c8876a5640425ba97e4a"/>
+		<Metadata name="Subsystem.ОДМ_xchg" id="f9ada048-bd59-4f4b-bc56-d6c9b2780293" configVersion="c4b2e32c521a6e3b234b6b4a424b337910b376f5"/>
 		<Metadata name="Subsystem.ОДМ_xchg.CommandInterface" id="f9ada048-bd59-4f4b-bc56-d6c9b2780293.1" configVersion="1014d3d45ce347a0e9ea51f22214fb103fd25389"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

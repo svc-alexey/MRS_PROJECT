@@ -40,10 +40,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОДМ_ВнутренниеМетоды</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОДМ_ОбменДанными_Переопределяемый</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">7b753143-e96b-4a78-8a04-8e928a414578</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОДМ_ОбъектПриЗаписи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОДМ_НастройкиОбмена</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ОДМ_ХТТПЗапросы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОДМ_МетодыИнтеграции</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

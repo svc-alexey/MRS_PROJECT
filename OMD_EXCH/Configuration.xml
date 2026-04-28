@@ -97,6 +97,7 @@
 			<CommandGroup>ОДМ_Регистры</CommandGroup>
 			<Catalog>ОДМ_БазыДанных</Catalog>
 			<Catalog>ОДМ_НастройкиОбмена</Catalog>
+			<Catalog>ОДМ_МетодыИнтеграции</Catalog>
 			<Document>ОДМ_ХТТПЗапросы</Document>
 			<Enum>ОДМ_СтатусыЗадач</Enum>
 			<DataProcessor>ОДМ_xchg</DataProcessor>
