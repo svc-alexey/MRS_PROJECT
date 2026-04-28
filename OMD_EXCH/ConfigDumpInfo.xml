@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.ОДМ_БазыДанных" id="da3c8fdf-c0fe-43da-b3c7-101cbf3c44e6" configVersion="44f47d991561235ac93aeb4cc02117633a61ede5">
+			<Metadata name="Catalog.ОДМ_БазыДанных.TabularSection.ТехническиеПараметры" id="12a4175a-61c4-4a8f-b168-67b482eff68f"/>
+			<Metadata name="Catalog.ОДМ_БазыДанных.TabularSection.ТехническиеПараметры.Attribute.Сервер" id="14e95724-9a85-494c-a84b-a0bc7317f219"/>
+			<Metadata name="Catalog.ОДМ_БазыДанных.TabularSection.Разрешения.Attribute.Доступность" id="33abf94b-dd24-43c5-ae48-ef37f2d4f1b0"/>
+			<Metadata name="Catalog.ОДМ_БазыДанных.Attribute.СерверПубликации" id="3953d376-a0be-4a0f-a0fa-d1456b670ba0"/>
+			<Metadata name="Catalog.ОДМ_БазыДанных.TabularSection.Разрешения.Attribute.Сервис" id="418d4d16-7db0-4253-9ee4-8d093c74b1a1"/>
+			<Metadata name="Catalog.ОДМ_БазыДанных.Attribute.ТипКонфигурации" id="422ff3a2-224a-428a-b77d-256a084a09d0"/>
+			<Metadata name="Catalog.ОДМ_БазыДанных.TabularSection.Метаданные.Attribute.Активность" id="604675ab-f73e-4441-9ca0-a6c462bda247"/>
+			<Metadata name="Catalog.ОДМ_БазыДанных.TabularSection.ТехническиеПараметры.Attribute.СтрокаПодключения" id="72b14828-9a28-4da8-99b9-449660b1286c"/>
+			<Metadata name="Catalog.ОДМ_БазыДанных.TabularSection.Метаданные.Attribute.ВыгружатьПриЗаписи" id="7b89c2ac-5489-4e71-a7ae-e38b3a912c66"/>
+			<Metadata name="Catalog.ОДМ_БазыДанных.Attribute.ИмяПубликации" id="83c2aafc-7ae0-4887-b2ca-5eb7681ee74b"/>
+			<Metadata name="Catalog.ОДМ_БазыДанных.TabularSection.Метаданные.Attribute.КешироватьЗначения" id="9170da61-169a-41aa-adb1-787eb512d8eb"/>
+			<Metadata name="Catalog.ОДМ_БазыДанных.TabularSection.ТехническиеПараметры.Attribute.ИмяБазы" id="94ed57b7-43d5-46f6-9bc6-c2b5bdcff870"/>
+			<Metadata name="Catalog.ОДМ_БазыДанных.TabularSection.Разрешения" id="ab6424f1-fadb-41f5-947c-fd73585be36f"/>
+			<Metadata name="Catalog.ОДМ_БазыДанных.Attribute.Токен" id="b1d86433-1f20-406b-b320-d6561b31bdfe"/>
+			<Metadata name="Catalog.ОДМ_БазыДанных.Attribute.Идентификатор" id="b3758c8e-02d0-422e-b403-70859977b5cd"/>
+			<Metadata name="Catalog.ОДМ_БазыДанных.TabularSection.Метаданные" id="b66d5c93-9320-43be-879b-8885a16654eb"/>
+			<Metadata name="Catalog.ОДМ_БазыДанных.TabularSection.Метаданные.Attribute.РегистрироватьВУзлеОбмена" id="c51808f6-161d-4138-8d8f-19026bd7286f"/>
+			<Metadata name="Catalog.ОДМ_БазыДанных.Attribute.Пароль" id="d28deca2-cc8b-417d-853e-7c9a01044fb9"/>
+			<Metadata name="Catalog.ОДМ_БазыДанных.Attribute.ДатаСоздания" id="e0f556ab-ca78-4efa-a41a-a9fd28ab11d6"/>
+			<Metadata name="Catalog.ОДМ_БазыДанных.Attribute.Логин" id="e7e84c6b-aebc-4303-acb1-274e6249509d"/>
+			<Metadata name="Catalog.ОДМ_БазыДанных.TabularSection.Метаданные.Attribute.ИмяОбъекта" id="f7842acc-6690-4d49-912a-f2f5ccb4c61e"/>
+		</Metadata>
+		<Metadata name="Catalog.ОДМ_БазыДанных.Form.ФормаСписка" id="d15a8905-e230-4a44-acff-c9a82c45a48b" configVersion="5793fb1ad07db23c8ca69a78f8712facc4cb5f4d"/>
+		<Metadata name="Catalog.ОДМ_БазыДанных.Form.ФормаСписка.Form" id="d15a8905-e230-4a44-acff-c9a82c45a48b.0" configVersion="f172a68d5d98fa497876d56427047ce67c1b21ec"/>
+		<Metadata name="Catalog.ОДМ_БазыДанных.Form.ФормаЭлемента" id="4d01698a-93e4-42f9-95af-3a32712ff908" configVersion="3cb385b15b9090311732db607987904eb89959aa"/>
+		<Metadata name="Catalog.ОДМ_БазыДанных.Form.ФормаЭлемента.Form" id="4d01698a-93e4-42f9-95af-3a32712ff908.0" configVersion="59c5791e9da10822664c0e4c591faa91deae3fc8"/>
+		<Metadata name="Catalog.ОДМ_БазыДанных.ManagerModule" id="da3c8fdf-c0fe-43da-b3c7-101cbf3c44e6.3" configVersion="369d8125febe82b58ce2674fa13dd918acd79972"/>
+		<Metadata name="Catalog.ОДМ_БазыДанных.ObjectModule" id="da3c8fdf-c0fe-43da-b3c7-101cbf3c44e6.0" configVersion="f365bf42973a7c4c558ee02e16945ada4c8679b2"/>
+		<Metadata name="Catalog.ОДМ_НастройкиОбмена" id="7363e7b1-4b0e-4715-b8dd-be26b1ff2ddb" configVersion="de8619e12b6269779f1b4955e59affafcd248778">
+			<Metadata name="Catalog.ОДМ_НастройкиОбмена.Attribute.БазаДанных" id="432d3b72-77cd-423c-8fdb-6183d1605226"/>
+			<Metadata name="Catalog.ОДМ_НастройкиОбмена.Attribute.ПравилаРегистрации" id="65880b31-2cf6-4c95-a83c-d9638cbfa5f2"/>
+			<Metadata name="Catalog.ОДМ_НастройкиОбмена.Attribute.УзелОбмена" id="829327fe-3505-4885-a192-9aa2936583d1"/>
+			<Metadata name="Catalog.ОДМ_НастройкиОбмена.TabularSection.СоставОбмена" id="baa3de3b-64d4-4394-9df2-c0c763895ff9"/>
+			<Metadata name="Catalog.ОДМ_НастройкиОбмена.Attribute.ПравилаОбмена" id="c3cf4127-76db-4e87-8599-c4a555eb56f5"/>
+			<Metadata name="Catalog.ОДМ_НастройкиОбмена.TabularSection.СоставОбмена.Attribute.Отключено" id="c93096ae-d0af-46a1-a473-7d304b1c7243"/>
+			<Metadata name="Catalog.ОДМ_НастройкиОбмена.Attribute.ИмяИнтерфейса" id="d7666c90-26df-4aef-b4df-7687a49e6dea"/>
+			<Metadata name="Catalog.ОДМ_НастройкиОбмена.TabularSection.СоставОбмена.Attribute.ИмяМетаданных" id="e2bdc0ca-983f-456d-84a1-55d21c16c79f"/>
+		</Metadata>
+		<Metadata name="CommandGroup.ОДМ_Регистры" id="4319a71a-fb65-4ee9-ace2-d137a5197d00" configVersion="3d7df9b3d3ec4602bbef0a8ea26bd5431fce2cb7"/>
+		<Metadata name="CommonModule.ОДМ_ВнутренниеМетоды" id="c77749d0-08b2-4670-aa6e-a7695e64bce6" configVersion="e62db8e678e0fdbf3f57595f3a355fafcf1e1bb6"/>
+		<Metadata name="CommonModule.ОДМ_ВнутренниеМетоды.Module" id="c77749d0-08b2-4670-aa6e-a7695e64bce6.0" configVersion="ac48840276c708f5e8286c7a524df7cd20f7fa01"/>
+		<Metadata name="CommonModule.ОДМ_ВнутренниеМетоды_ВызовСервера" id="f2ec1782-fcf1-4475-bf29-a1ad158a0247" configVersion="b7b61493fc1dcdf2beaa1eff45db08a0be472c4b"/>
+		<Metadata name="CommonModule.ОДМ_ВнутренниеМетоды_ВызовСервера.Module" id="f2ec1782-fcf1-4475-bf29-a1ad158a0247.0" configVersion="af8608375370a1ac18e39804ec151d55e550df36"/>
+		<Metadata name="CommonModule.ОДМ_ОбменДанными" id="81563160-082e-45ea-8f72-5bb2ab21b144" configVersion="30c3d1b31579a23bde3474c20c001dc81e72fcaa"/>
+		<Metadata name="CommonModule.ОДМ_ОбменДанными.Module" id="81563160-082e-45ea-8f72-5bb2ab21b144.0" configVersion="bd4dc20043c47e21cbd8156cf6ce089155fe0a67"/>
+		<Metadata name="CommonModule.ОДМ_ОбменДанными_Клиент" id="822426e0-201c-4a0a-b9be-095019a123a6" configVersion="6a7e966319e3e5278ce5efc184b67240055f6f2a"/>
+		<Metadata name="CommonModule.ОДМ_ОбменДанными_Клиент.Module" id="822426e0-201c-4a0a-b9be-095019a123a6.0" configVersion="a3cf090c6823f1f7bf5a9113cef1bf1430f8995c"/>
+		<Metadata name="CommonModule.ОДМ_ОбменДанными_Переопределяемый" id="9cbaeff5-85ce-496b-a220-9abfd9a9fabe" configVersion="7a8fa60a0e2ccbfabb42cb6702e749e262f9c24a"/>
+		<Metadata name="CommonModule.ОДМ_ОбменДанными_Переопределяемый.Module" id="9cbaeff5-85ce-496b-a220-9abfd9a9fabe.0" configVersion="c3ece4730751ae0b2ff89d1b0dcef433b22a386c"/>
+		<Metadata name="CommonModule.ОДМ_ОбменДанными_ПовтИсп" id="0537f310-3603-497b-860b-091abac6f496" configVersion="10a34503e6526522c849bbc0e5eb9108163b88f6"/>
+		<Metadata name="CommonModule.ОДМ_ОбменДанными_ПовтИсп.Module" id="0537f310-3603-497b-860b-091abac6f496.0" configVersion="08717269d57984dc187af56ba495a92e3f5dd7bf"/>
+		<Metadata name="CommonModule.ОДМ_ОбщегоНазначения" id="342f3c18-76cd-43b4-9d74-e19a6e551e4e" configVersion="4ce1d1fba16885f6907136de8667d97fabba668e"/>
+		<Metadata name="CommonModule.ОДМ_ОбщегоНазначения.Module" id="342f3c18-76cd-43b4-9d74-e19a6e551e4e.0" configVersion="dbc743a56ba878658fa7d39631e6f4966f09352f"/>
+		<Metadata name="CommonModule.ОДМ_ПодпискиНаСобытия" id="7afa8f67-1181-40df-9bfb-66c5acd991a0" configVersion="edd61c9259f5d3c47e6016516bee9c1fe0ff55b6"/>
+		<Metadata name="CommonModule.ОДМ_ПодпискиНаСобытия.Module" id="7afa8f67-1181-40df-9bfb-66c5acd991a0.0" configVersion="3ca2175d14ab1417e78d155390d39839e882c70d"/>
+		<Metadata name="CommonModule.ОДМ_РегламентныеЗадания" id="9cdcb6e1-8cbd-465c-8e7b-1f2ceeb32ab5" configVersion="c3b8c059c84c338818db292570abb1fa16515aba"/>
+		<Metadata name="CommonModule.ОДМ_РегламентныеЗадания.Module" id="9cdcb6e1-8cbd-465c-8e7b-1f2ceeb32ab5.0" configVersion="d45ad476df9458f2afc31e46f276cd084a2d6a45"/>
+		<Metadata name="CommonModule.ОДМ_УправлениеФормами_Клиент" id="21f7da46-ecc8-4ba5-8ae1-1bb769c553b6" configVersion="ae472305c19e531ec107bb62619989cf413bdf08"/>
+		<Metadata name="CommonModule.ОДМ_УправлениеФормами_Клиент.Module" id="21f7da46-ecc8-4ba5-8ae1-1bb769c553b6.0" configVersion="d2c43a6f67e70d85a7909c4f4f45561eb020c441"/>
+		<Metadata name="CommonModule.ОДМ_УправлениеФормами_Клиент_ПовтИсп" id="872271e2-903d-45b4-89b8-799b4fb448b8" configVersion="3981bf2e23f4b673c7324d6d35bc8b6be93528d8"/>
+		<Metadata name="CommonModule.ОДМ_УправлениеФормами_Клиент_ПовтИсп.Module" id="872271e2-903d-45b4-89b8-799b4fb448b8.0" configVersion="4eb046cc508884217c1cb25ed6c0bf364cda6a50"/>
+		<Metadata name="CommonModule.ОДМ_УправлениеФормами_Сервер" id="2a09c316-dae1-4ae8-be25-4a36d6fe7dbb" configVersion="30545eeeb8f81ac3192290798b104f9bb85ef466"/>
+		<Metadata name="CommonModule.ОДМ_УправлениеФормами_Сервер.Module" id="2a09c316-dae1-4ae8-be25-4a36d6fe7dbb.0" configVersion="71b2b739b335dfbb4f67f6b34ceb597ea38077f5"/>
+		<Metadata name="CommonPicture.ОДМ_ЛоготипПодсистемы" id="7ea4d22f-19e7-4e62-9885-6cc802539ef8" configVersion="fb8be8ec27bb00780db93da283b66d1df7d1cfd8"/>
+		<Metadata name="CommonPicture.ОДМ_ЛоготипПодсистемы.Picture" id="7ea4d22f-19e7-4e62-9885-6cc802539ef8.0" configVersion="6f129e23bdad6075f8b8d023d6d1061b9a40e20e"/>
+		<Metadata name="CommonTemplate.ОДМ_JsonEditor" id="ef7fef81-a5b7-4eb3-b713-355e9db82dfc" configVersion="7221d692ad494fcf87fffddc60eaffd1f2f3053b"/>
+		<Metadata name="CommonTemplate.ОДМ_JsonEditor.Template" id="ef7fef81-a5b7-4eb3-b713-355e9db82dfc.0" configVersion="88fb002939b9aa61c835879c80db60577137bf86"/>
+		<Metadata name="Configuration.ОДМ_xchg" id="8b61c3a4-e354-47c0-b9f9-96fe1fa803e4" configVersion="9b07a501356e1c2479ee0ced614d1376e9fa698d"/>
+		<Metadata name="DataProcessor.ОДМ_xchg" id="9a7699ca-9de0-462c-b0bb-cc8d650c0435" configVersion="040c5e6f1027ea4c62b5e261ff392d41d4cd11b3">
+			<Metadata name="DataProcessor.ОДМ_xchg.Attribute.Соединение" id="03baa54c-a9f2-4031-8dc2-419914b2e256"/>
+			<Metadata name="DataProcessor.ОДМ_xchg.Attribute.Пароль" id="364d2f3f-33bf-41d6-bc07-4e588b968c96"/>
+			<Metadata name="DataProcessor.ОДМ_xchg.Attribute.Заголовки" id="3eb6c74c-18ea-46d5-a50a-301c1610b066"/>
+			<Metadata name="DataProcessor.ОДМ_xchg.Attribute.ЗащищенноеСоединение" id="55175825-a5bc-44e5-9414-801e87ba3740"/>
+			<Metadata name="DataProcessor.ОДМ_xchg.Attribute.ИспользоватьАутентификациюОС" id="8756ca91-8df1-4b89-824f-35c739427594"/>
+			<Metadata name="DataProcessor.ОДМ_xchg.Attribute.Логин" id="c6185830-aa61-49ca-87f1-8684a2ba548c"/>
+			<Metadata name="DataProcessor.ОДМ_xchg.Attribute.Порт" id="ce3a9310-25f0-40e5-8029-ca6f435f405d"/>
+			<Metadata name="DataProcessor.ОДМ_xchg.Attribute.ИмяБазы" id="e1d2f784-0ac7-4df3-8bf5-4e4414c5ffa2"/>
+			<Metadata name="DataProcessor.ОДМ_xchg.Attribute.АдресСервера" id="e5029396-5cb7-4d0e-8462-ac6e57d2d05c"/>
+			<Metadata name="DataProcessor.ОДМ_xchg.Attribute.Токен" id="f61d5825-9524-4940-abbe-1c4e5bb176d3"/>
+		</Metadata>
+		<Metadata name="DataProcessor.ОДМ_xchg.ObjectModule" id="9a7699ca-9de0-462c-b0bb-cc8d650c0435.0" configVersion="f2239bb705f4a95474435ea774db586c8cbf9e36"/>
+		<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML" id="1cd42f92-010f-4372-a6d4-fe67f5ddcb8b" configVersion="13701452dfccdb812047a79bc216dfa688fdbbea">
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ОптимизированнаяЗаписьОбъектов" id="0151312b-a853-4c73-85a5-2ffa644456b7"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ОбработкиНастройкиЗагрузки" id="01e18168-7bde-48fc-8252-3adada4e0571"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.АутентификацияWindowsИнформационнойБазыДляПодключения" id="0a4a033b-9517-433e-aeda-028755df5b35"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.АрхивироватьФайл" id="0de92526-28e9-4179-9421-b44f3e650f1e"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ТаблицаПравилОчистки" id="0edcf6ad-4d07-4bab-b0bb-383b0818e3c2"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ИмяФайлаВнешнейОбработкиОбработчиковСобытий" id="10eb2d96-3623-4d75-a114-a65d09214e22"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ВыполнитьОбменДаннымиВОптимизированномФормате" id="14f5e44a-86e5-4e71-bb5b-ada9e60b5c48"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ДатаВыгрузкиДанных" id="15a6c0d5-1674-48d2-8bc1-c7b52edb40c2"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.НеЗадаватьВопросПриЗагрузкеДанныхПриОткрытииОбработки" id="1d3305d3-d53e-43ed-ac3d-69bf15b1ae89"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.КоличествоОбработанныхОбъектовДляОбновленияСтатуса" id="1d6b328e-b7bc-4def-adda-97364bc043de"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ДатаНачала" id="1ee65225-77d9-4af9-bb87-0b3647ddb478"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ОбработкиНастройкиВыгрузки" id="22c2fe4e-1919-4271-9a57-746fe86df603"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ВыгружатьТолькоРазрешенные" id="23c81439-c53c-427a-9c0d-8dff482e52de"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ИмяФайлаПравилОбмена" id="2544678b-c32c-4d02-a13c-01805f690d98"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ПарольИнформационнойБазыДляПодключения" id="26b961b0-792b-4996-a607-38e8631c5926"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ТипУдаленияРегистрацииИзмененийДляУзловОбменаПослеВыгрузки" id="288adeb3-93e7-4c16-848b-54388812c683"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ТипИнформационнойБазыДляПодключения" id="2aabd251-bab8-4200-9c80-b25def80c698"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ПостроительОтчета" id="2aec7720-9343-4924-8f69-36e22b564441"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.РежимОтладкиАлгоритмов" id="360f63b6-0a5c-4d15-9701-0e178278d332"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ИспользоватьОтборПоДатеДляВсехОбъектов" id="39a2efdc-d10f-4235-9cdb-4da81425c51d"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ИмяВременногоФайлаПротоколаОбмена" id="3a35dcff-4a8d-44d9-8e69-ab31648c1887"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ПарольДляРаспаковкиФайлаОбмена" id="4106cdf6-aa07-490d-9b55-e634b6a08414"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ВерсияПравилОбмена" id="47c946d6-bd39-46fe-929a-365532b836e9"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ТаблицаПравилВыгрузки" id="4e48c066-f886-4fa5-9731-e224414d6bc4"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ИспользоватьТранзакцииПриВыгрузкеДляПлановОбмена" id="4e9ddde9-eea2-4f59-9137-b7ce28fd706e"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.СохраненныеНастройки" id="4ebf7795-fd54-4a82-966a-8a32c52bde83"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.НастройкаАвтоматическойЗагрузкиДанных" id="51f089fb-7f6f-400f-a85e-9b7e61f96674"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ВестиДополнительныйКонтрольЗаписиВXML" id="569083ed-3f68-4863-bafb-c6fe355d1381"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ВерсияПлатформыИнформационнойБазыДляПодключения" id="5843e6f2-245e-495f-a64e-b427e7b5305b"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ИмяИнформационнойБазыНаСервереДляПодключения" id="65ac1efa-a30c-441f-a9f9-c8b4b236f826"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.КоличествоЭлементовВТранзакцииПриВыгрузкеДляПлановОбмена" id="6698c92a-cb27-424d-8194-891865d0445e"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.Параметры" id="6ac9b771-0557-4837-895b-1df66b7d0646"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ИмяФайлаПротоколаОбменаЗагрузка" id="6e131213-5cd6-45fd-8bd0-fe808166474d"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.НеВыводитьНикакихИнформационныхСообщенийПользователю" id="7fb9850b-679c-4010-9756-2066ebfbc1e3"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ОбработчикиСобытийЧитаемИзФайлаПравилОбмена" id="8416b040-57bd-4024-9b9d-2cb824f060cf"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ЗагружатьДанныеВРежимеОбмена" id="8452e9a5-eb31-426c-afca-f77c375497c6"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ИмяСервераИнформационнойБазыДляПодключения" id="85168919-9c29-49c3-b487-6fb375bd152c"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ИмяФайлаПротоколаОбмена" id="876b5b89-34bf-43d6-9079-4908931a18d4"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ДатаОкончания" id="893d5965-fd7c-48da-98f4-9e81874a5f94"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ВыводВПротоколСообщенийОбОшибках" id="8fdc2aa8-c885-47bc-a6ef-2dbfd7f55e35"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ТаблицаНастройкиПараметров" id="90f5a5fe-62d1-4c98-8795-59da1e804c83"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ОбрезатьСтрокиСправа" id="93b18bf8-84ae-4bcf-8c3a-2f96303bd501"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ЭтоИнтерактивныйРежим" id="98208746-abdb-436b-8e55-408ce6afc20d"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ИмяФайлаОбмена" id="9aacd15d-3f66-4c7c-b65d-d04dcc63f566"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.Данные" id="9d35f921-6e74-46b1-b812-c331817ce6ae"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.РежимОбмена" id="9f32602a-a813-488c-a5d8-51c92cb0ee20"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.КомментарийПриЗагрузкеДанных" id="a87c69fe-69ee-4830-b7ee-e794e06cb1e0"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ИмяФайлаОбработчиковСобытий" id="a89ec78e-720e-41ba-8065-163dbb5bd247"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.НепосредственноеЧтениеВИБПриемнике" id="a8f23c29-0b2a-4847-80f6-43a1e47253c9"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ИмяВременногоФайлаОбработчиковСобытий" id="abd80439-8c5b-4b78-9845-43ad0ec06c02"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ИспользоватьТранзакции" id="abdc75ad-241c-4028-a9a7-5d4d8f39ff4a"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ФлагРежимОтладкиОбработчиков" id="b49844d1-27e4-446b-bb9f-67e2791087de"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ЗадаватьВопросПриЗагрузкеДанныхПриОткрытииОбработки" id="b5cd4869-f34e-45e7-9c99-b43929039725"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ЗаписыватьВИнформационнуюБазуТолькоИзмененныеОбъекты" id="c178b4bf-aa80-42d4-8fd1-b357166f5298"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ЗаписыватьРегистрыНаборамиЗаписей" id="c3b63d57-4490-4f92-8140-7cfb8dc498fd"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ВыводВОкноСообщенийИнформационныхСообщений" id="c416796a-922b-4d80-b004-00a71eea29dc"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ПользовательИнформационнойБазыДляПодключения" id="d047352c-8ff9-47e5-bb24-232a9e1949d1"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.КомментарийПриВыгрузкеДанных" id="d17bbbe5-4d30-4810-b03e-988804a12291"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ФлагОшибки" id="d8aa4de4-dda2-4785-b65f-ffe9bf384086"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ТаблицаПравилКонвертации" id="dbadcc19-053d-4bea-8071-48d2f5aebacc"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ДописыватьДанныеВПротоколОбмена" id="dbc0a7b6-47ef-4e04-97fc-51d5b41b2466"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ФлагРежимОтладки" id="e6b982bb-1440-4f30-9437-c79105e5b4d4"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ВыводВПротоколИнформационныхСообщений" id="efe361fd-d02b-417a-8258-dab7002ce9b2"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.КоличествоОбъектовНаТранзакцию" id="f0ee4a0e-2aaf-41cd-af1c-d18fd9d92daa"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.Комментарий" id="f10adea7-7bd9-4cd0-bf53-01b15bdc75ce"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ПарольДляСжатияФайлаОбмена" id="f549e3b7-4bd8-4839-bd05-d5954faa4ae6"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ОткрыватьПротоколыОбменаПослеВыполненияОпераций" id="f5d5fd38-9598-4cbf-a300-86dd6f13e704"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.КаталогИнформационнойБазыДляПодключения" id="f9bd7865-f879-4fec-bec6-d08cbe4091fa"/>
+			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ОбъектыПоСсылкеЗагружатьБезПометкиУдаления" id="f9f202c3-cf41-44df-a621-600f8f9cf546"/>
+		</Metadata>
+		<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Form.УправляемаяФорма" id="d363964c-4410-49a6-b4cb-f9da99a44a17" configVersion="b6a31a47774dff46cb5dea62e8a995e0bf1c3f95"/>
+		<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Form.УправляемаяФорма.Form" id="d363964c-4410-49a6-b4cb-f9da99a44a17.0" configVersion="c61ec3baf31f6afe84cd106adbb4d17e59520d76"/>
+		<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Form.УправляемаяФормаНастройкиОтладкиОбработчиков" id="15723048-64a8-4ddc-8881-62854e53f035" configVersion="7d46b8a1a6049d963bcf06470af8cd58955c4b3b"/>
+		<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Form.УправляемаяФормаНастройкиОтладкиОбработчиков.Form" id="15723048-64a8-4ddc-8881-62854e53f035.0" configVersion="aa9a9a4e9f87228c2e498da7e78d8d53415eca8a"/>
+		<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Help" id="1cd42f92-010f-4372-a6d4-fe67f5ddcb8b.1" configVersion="9e4e21e7d04676af38a71c8657aafbb66c94200b"/>
+		<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.ObjectModule" id="1cd42f92-010f-4372-a6d4-fe67f5ddcb8b.0" configVersion="f89fcdb428cfa99fdf855793058a30f4aca186c0"/>
+		<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Template.ОбщиеПроцедурыФункции" id="f6fb10a7-3030-402e-b332-a8500f055238" configVersion="3c0c6729282d3d537ec6a5992b4be5e1a43896b4"/>
+		<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Template.ОбщиеПроцедурыФункции.Template" id="f6fb10a7-3030-402e-b332-a8500f055238.0" configVersion="cf12b08f317ff47c32119cc7d7ae113aad67169f"/>
+		<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Template.ПараметрыОбработчиков" id="bff29d42-92bb-425d-a2f7-17c51112be03" configVersion="6ac310ee11b9a6ad48870047ac37d2f373318c38"/>
+		<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Template.ПараметрыОбработчиков.Template" id="bff29d42-92bb-425d-a2f7-17c51112be03.0" configVersion="b0b84712c233a8f2b2cf2ca985d9189de3b9342e"/>
+		<Metadata name="Document.ОДМ_ХТТПЗапросы" id="b61b03e3-bd2d-4993-8d20-e1e43d841831" configVersion="c4740cbd00184e2d90deb36c3d22065e929fda75"/>
+		<Metadata name="Enum.ОДМ_СтатусыЗадач" id="ef47717e-5f9e-4e27-9fc8-254b635c5551" configVersion="a2df838ea601c2022dedaa2dfaf509c473a7c7d0">
+			<Metadata name="Enum.ОДМ_СтатусыЗадач.EnumValue.Отправлен" id="1d61ddf8-446d-43ab-b957-d619a134cfed"/>
+			<Metadata name="Enum.ОДМ_СтатусыЗадач.EnumValue.Отменен" id="345adfa5-9633-4d31-8517-317efab594ef"/>
+			<Metadata name="Enum.ОДМ_СтатусыЗадач.EnumValue.Завершён" id="571b8d4c-1926-43b6-8631-4f5dfba3352e"/>
+			<Metadata name="Enum.ОДМ_СтатусыЗадач.EnumValue.Выполнен" id="6cfd9484-7e18-4964-ae12-0ede38298363"/>
+			<Metadata name="Enum.ОДМ_СтатусыЗадач.EnumValue.Выполняется" id="816d3ff4-9735-40bb-a33e-c4180f816545"/>
+			<Metadata name="Enum.ОДМ_СтатусыЗадач.EnumValue.Ошибка" id="81773eea-220e-4024-9115-b51067306ce0"/>
+			<Metadata name="Enum.ОДМ_СтатусыЗадач.EnumValue.Подготовлен" id="d05c6b33-c026-4ca5-bbfe-10ace4df4bfa"/>
+		</Metadata>
+		<Metadata name="Enum.ОДМ_СтатусыЗадач.ManagerModule" id="ef47717e-5f9e-4e27-9fc8-254b635c5551.0" configVersion="92e7c754feeb3a955123e4d78e8424605cf4b981"/>
+		<Metadata name="EventSubscription.ОДМ_ОбъектПриЗаписи" id="a1194ae5-5ac6-4a3e-93b0-46032b30d272" configVersion="b03af30672716ba2e0d490596b66df9239e13d9f"/>
+		<Metadata name="EventSubscription.ОДМ_СправочникиОбменПередЗаписью" id="f6aa1ae3-86d3-4761-8295-029ccedc2e01" configVersion="7858f6a29baa63966e74fb52d204eb3189425388"/>
+		<Metadata name="HTTPService.ОДМ_xchg" id="e35a11b5-fbd9-43ad-820a-dd4d24b2415a" configVersion="ea71805bad9ff49be9f48678cbb3aefcaf286012">
+			<Metadata name="HTTPService.ОДМ_xchg.URLTemplate.job" id="0699a48d-8c8c-448f-947f-7650edc0ad40"/>
+			<Metadata name="HTTPService.ОДМ_xchg.URLTemplate.query.Method.POST" id="15bf0de8-bb1d-4893-9499-900d58baa185"/>
+			<Metadata name="HTTPService.ОДМ_xchg.URLTemplate.ping.Method.POST" id="20c28f10-f1d0-420a-bb49-8aa8abcd3394"/>
+			<Metadata name="HTTPService.ОДМ_xchg.URLTemplate.job.Method.GET" id="4360276d-f9b2-457e-a274-e3a4189109dc"/>
+			<Metadata name="HTTPService.ОДМ_xchg.URLTemplate.info" id="4fc792cb-0f8d-4603-b5ca-d0ac8918361e"/>
+			<Metadata name="HTTPService.ОДМ_xchg.URLTemplate.object" id="61bd34ff-c347-4f7c-b578-b47e35184b00"/>
+			<Metadata name="HTTPService.ОДМ_xchg.URLTemplate.code" id="6489bba5-ceee-4bfb-9876-b9ce30632405"/>
+			<Metadata name="HTTPService.ОДМ_xchg.URLTemplate.ping" id="7230d297-3c9a-480e-82e7-4cc3aa8f889b"/>
+			<Metadata name="HTTPService.ОДМ_xchg.URLTemplate.list" id="72797f7f-e269-4f13-91b9-b4bfea19ca83"/>
+			<Metadata name="HTTPService.ОДМ_xchg.URLTemplate.object.Method.GET" id="78d2309c-bdf0-4495-9929-64ba5e2b7b15"/>
+			<Metadata name="HTTPService.ОДМ_xchg.URLTemplate.list.Method.GET" id="7d091222-f654-4b04-b402-1646b59cef2e"/>
+			<Metadata name="HTTPService.ОДМ_xchg.URLTemplate.info.Method.GET" id="b3f18c72-b2da-45af-be9e-60b2a6a8f2ee"/>
+			<Metadata name="HTTPService.ОДМ_xchg.URLTemplate.query" id="bc0f4693-9c9b-4279-87d5-d951dab9627c"/>
+			<Metadata name="HTTPService.ОДМ_xchg.URLTemplate.code.Method.POST" id="bd8bde08-bb71-41bb-86b7-ec6c61f32af3"/>
+			<Metadata name="HTTPService.ОДМ_xchg.URLTemplate.object.Method.POST" id="daf94e9d-3e2d-4abb-ad34-eb9588ac8e41"/>
+		</Metadata>
+		<Metadata name="HTTPService.ОДМ_xchg.Module" id="e35a11b5-fbd9-43ad-820a-dd4d24b2415a.0" configVersion="6cfb684d4950db357b99ae16383b02a88b4520da"/>
+		<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена" id="ae4aa6c6-e2a0-44a5-8b3d-bba3369b9604" configVersion="2aef88d9adcb6517fa5ad7c72a66541d881dbade">
+			<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена.Attribute.ЖурналСообщений" id="013c2b0d-ba00-4c77-9e33-f0a6c7ccb03b"/>
+			<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена.Resource.Статус" id="174a0e01-a9bd-40d0-b013-dad61c992959"/>
+			<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена.Resource.МоментСтарта" id="19740c74-6681-46e3-9e9e-f7aa4e0b60bb"/>
+			<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена.Resource.Попытка" id="1e28922d-d242-4249-b77a-7a3e16c9754c"/>
+			<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена.Attribute.Ошибка" id="204d841d-2d87-47dc-bdd2-9a3f486ceeb9"/>
+			<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена.Resource.РазмерПараметры" id="487cab42-81cf-4609-a665-02119a958556"/>
+			<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена.Resource.Метод" id="4c5e85c3-d279-438f-a0db-f6c945aed0d1"/>
+			<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена.Resource.РазмерРезультат" id="512234cf-1ad3-478b-8652-ddd1d9f7b1d8"/>
+			<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена.Attribute.Результат" id="5336b09f-818e-4705-9c0d-a1554fed32e5"/>
+			<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена.Resource.Инициатор" id="5a5d7116-5158-4f3a-bc49-8279a908f715"/>
+			<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена.Attribute.Параметры" id="6f4dd37b-0249-48fe-a31b-9d1c2e16e574"/>
+			<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена.Resource.МоментФиниша" id="8e9c3571-07be-48ff-9d31-5c565b0f47fe"/>
+			<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена.Attribute.ДатаСоздания" id="a5ba548f-2bcd-49e6-bdc5-893a84883d4a"/>
+			<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена.Dimension.Идентификатор" id="cfacad8c-f9e3-4a5b-9b66-519ce7c4db28"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена.Form.ФормаЗаписи" id="f8c0de26-b122-4196-b9b4-b24f747aba45" configVersion="3ba317971446e8a420a7aa6d78402b295cae34de"/>
+		<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена.Form.ФормаЗаписи.Form" id="f8c0de26-b122-4196-b9b4-b24f747aba45.0" configVersion="a581f70d91298151ccb05c89912a2b4f472444f8"/>
+		<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена.Form.ФормаСписка" id="20f531e7-b293-4487-8c42-90d8ad80c936" configVersion="d160286fab56f2322233b4b7ecea2d8f369895f2"/>
+		<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена.Form.ФормаСписка.Form" id="20f531e7-b293-4487-8c42-90d8ad80c936.0" configVersion="53a98033f98fd49f3c8f9cb6f88249a3026fa3ec"/>
+		<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена.ManagerModule" id="ae4aa6c6-e2a0-44a5-8b3d-bba3369b9604.2" configVersion="bba43e544615a88547b4aeb9555dd1dfa3a699e0"/>
+		<Metadata name="InformationRegister.ОДМ_ЗадачиОбмена.RecordSetModule" id="ae4aa6c6-e2a0-44a5-8b3d-bba3369b9604.1" configVersion="81566e281b0b944c0d25b61cecd79d478749bcd8"/>
+		<Metadata name="Language.Русский" id="37f49cb2-311b-489c-84d3-d989f9c797bc" configVersion="1479645dbbdecb94f25e3c68583043fc0ba1fb2b"/>
+		<Metadata name="Role.ОДМ_DataExchange" id="f0c9a1a7-3fa7-45a5-ad78-2cfdc7498346" configVersion="d8b7425723e594a5af1c7fb33087c3b00e8343dd"/>
+		<Metadata name="Role.ОДМ_ОсновнаяРоль" id="6936c7ff-b373-4683-82e8-f961bb2092d4" configVersion="3ca170a29868c2244bf3dce5d6ecdc0009ab2ea9"/>
+		<Metadata name="ScheduledJob.ОДМ_ОбработкаЗадач" id="7f7ccba4-393a-457b-9e12-fb232b57b22a" configVersion="41a54dbc37611da73e3de55d3f554da5da12ba10"/>
+		<Metadata name="ScheduledJob.ОДМ_ОбработкаЗадач.Schedule" id="7f7ccba4-393a-457b-9e12-fb232b57b22a.0" configVersion="f1a80b85e0a5474c79dceeb2767da3b0e8b6e2d1"/>
+		<Metadata name="ScheduledJob.ОДМ_ОбработкаУстаревшихЗадач" id="983c176a-0ed0-4470-8f11-0a9473af1331" configVersion="aa14f79379ab71667338afe16b896f34a89f4b91"/>
+		<Metadata name="ScheduledJob.ОДМ_ОбработкаУстаревшихЗадач.Schedule" id="983c176a-0ed0-4470-8f11-0a9473af1331.0" configVersion="8ab1b40d08b108f2863b4791b855ae31f754ceb1"/>
+		<Metadata name="Subsystem.ОДМ_xchg" id="f9ada048-bd59-4f4b-bc56-d6c9b2780293" configVersion="03b72f5271f2a58f39b8c8876a5640425ba97e4a"/>
+		<Metadata name="Subsystem.ОДМ_xchg.CommandInterface" id="f9ada048-bd59-4f4b-bc56-d6c9b2780293.1" configVersion="1014d3d45ce347a0e9ea51f22214fb103fd25389"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
