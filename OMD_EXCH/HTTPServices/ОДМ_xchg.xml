@@ -174,6 +174,35 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="8ce12783-86a4-4aca-9004-6fbbbe28471c">
+				<Properties>
+					<Name>invoke</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Invoke</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/invoke</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="e3025198-7242-48cf-a8c5-24d97591b033">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>invokePOST</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 			<URLTemplate uuid="bc0f4693-9c9b-4279-87d5-d951dab9627c">
 				<Properties>
 					<Name>query</Name>
