@@ -259,7 +259,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="f8ebaf22-a7da-4f12-a87f-b08c19e6bcf2">
+			<Attribute uuid="d57f58ab-1e76-4ca6-a381-acef584791ad">
 				<Properties>
 					<Name>НаправлениеОбмена</Name>
 					<Synonym>
@@ -303,13 +303,13 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="02c3b80c-8c42-4b3b-b73a-170daf58e6ff">
+			<Attribute uuid="d6745f2d-d41e-4f6c-b497-c7325d8757d8">
 				<Properties>
 					<Name>ПримерJSONЗапроса</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Пример JSON запроса</v8:content>
+							<v8:content>Пример JSONЗапроса</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -347,13 +347,13 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="b6e1ab43-f0b3-4be8-a9ac-23e2aa954f5e">
+			<Attribute uuid="8df29416-e787-4595-9895-7194b8e40b46">
 				<Properties>
 					<Name>ПримерJSONОтвета</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Пример JSON ответа</v8:content>
+							<v8:content>ПримерJSONОтвета</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

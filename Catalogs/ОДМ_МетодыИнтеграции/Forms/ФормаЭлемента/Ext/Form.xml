@@ -322,93 +322,78 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Предпросмотр JSON</v8:content>
+							<v8:content>Ппредпросмотр JSON</v8:content>
 						</v8:item>
 					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница предпросмотр JSON</v8:content>
+						</v8:item>
+					</ToolTip>
 					<ExtendedTooltip name="СтраницаПредпросмотрJSONРасширеннаяПодсказка" id="85"/>
 					<ChildItems>
 						<InputField name="НаправлениеОбмена" id="86">
 							<DataPath>Объект.НаправлениеОбмена</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Направление обмена</v8:content>
-								</v8:item>
-							</Title>
 							<DropListButton>true</DropListButton>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="НаправлениеОбменаКонтекстноеМеню" id="87"/>
 							<ExtendedTooltip name="НаправлениеОбменаРасширеннаяПодсказка" id="88"/>
 						</InputField>
-						<UsualGroup name="ГруппаКнопкаПримерЗапроса" id="89">
-							<Group>Horizontal</Group>
+						<Button name="СформироватьПримерЗапроса" id="89">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.СформироватьПримерЗапроса</CommandName>
+							<ExtendedTooltip name="СформироватьПримерЗапросаРасширеннаяПодсказка" id="90"/>
+						</Button>
+						<UsualGroup name="ГруппаКнопкаПримерЗапроса" id="91">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа кнопка пример запроса</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа кнопка пример запроса</v8:content>
+								</v8:item>
+							</ToolTip>
 							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаКнопкаПримерЗапросаРасширеннаяПодсказка" id="90"/>
+							<ExtendedTooltip name="ГруппаКнопкаПримерЗапросаРасширеннаяПодсказка" id="92"/>
 							<ChildItems>
-								<Button name="СформироватьПримерЗапроса" id="91">
+								<InputField name="ПримерJSONЗапроса" id="93">
+									<DataPath>Объект.ПримерJSONЗапроса</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Сформировать пример запроса</v8:content>
+											<v8:content>JSON Запрос</v8:content>
 										</v8:item>
 									</Title>
-									<CommandName>Form.Command.СформироватьПримерЗапроса</CommandName>
-									<ContextMenu name="СформироватьПримерЗапросаКонтекстноеМеню" id="92"/>
-									<ExtendedTooltip name="СформироватьПримерЗапросаРасширеннаяПодсказка" id="93"/>
-								</Button>
+									<MultiLine>true</MultiLine>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПримерJSONЗапросаКонтекстноеМеню" id="94"/>
+									<ExtendedTooltip name="ПримерJSONЗапросаРасширеннаяПодсказка" id="95"/>
+								</InputField>
+								<InputField name="ПримерJSONОтвета" id="96">
+									<DataPath>Объект.ПримерJSONОтвета</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>JSON Ответа</v8:content>
+										</v8:item>
+									</Title>
+									<MultiLine>true</MultiLine>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПримерJSONОтветаКонтекстноеМеню" id="97"/>
+									<ExtendedTooltip name="ПримерJSONОтветаРасширеннаяПодсказка" id="98"/>
+								</InputField>
 							</ChildItems>
 						</UsualGroup>
-						<InputField name="ПримерJSONЗапроса" id="94">
-							<DataPath>Объект.ПримерJSONЗапроса</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Пример JSON запроса</v8:content>
-								</v8:item>
-							</Title>
-							<Height>10</Height>
-							<HorizontalStretch>true</HorizontalStretch>
-							<MultiLine>true</MultiLine>
-							<ReadOnly>true</ReadOnly>
-							<ExtendedEdit>true</ExtendedEdit>
-							<ContextMenu name="ПримерJSONЗапросаКонтекстноеМеню" id="95"/>
-							<ExtendedTooltip name="ПримерJSONЗапросаРасширеннаяПодсказка" id="96"/>
-						</InputField>
-						<InputField name="ПримерJSONОтвета" id="97">
-							<DataPath>Объект.ПримерJSONОтвета</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Пример JSON ответа</v8:content>
-								</v8:item>
-							</Title>
-							<Height>10</Height>
-							<HorizontalStretch>true</HorizontalStretch>
-							<MultiLine>true</MultiLine>
-							<ReadOnly>true</ReadOnly>
-							<ExtendedEdit>true</ExtendedEdit>
-							<ContextMenu name="ПримерJSONОтветаКонтекстноеМеню" id="98"/>
-							<ExtendedTooltip name="ПримерJSONОтветаРасширеннаяПодсказка" id="99"/>
-						</InputField>
 					</ChildItems>
 				</Page>
 			</ChildItems>
 		</Pages>
 	</ChildItems>
-	<Commands>
-		<Command name="СформироватьПримерЗапроса" id="100">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Сформировать пример запроса</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip/>
-			<Picture/>
-			<Shortcut/>
-			<Representation>Auto</Representation>
-			<Action>СформироватьПримерЗапроса</Action>
-		</Command>
-	</Commands>
 	<Attributes>
 		<Attribute name="Объект" id="68">
 			<Type>
@@ -418,4 +403,21 @@
 			<SavedData>true</SavedData>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="СформироватьПримерЗапроса" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать пример запроса</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать пример запроса</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СформироватьПримерЗапроса</Action>
+		</Command>
+	</Commands>
 </Form>
