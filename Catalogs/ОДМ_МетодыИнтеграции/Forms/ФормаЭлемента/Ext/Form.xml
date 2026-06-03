@@ -87,8 +87,9 @@
 							<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="19"/>
 						</InputField>
 					</ChildItems>
-						</UsualGroup>
 				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
 		<Pages name="ГруппаСтраниц" id="20">
 			<ExtendedTooltip name="ГруппаСтраницРасширеннаяПодсказка" id="21"/>
 			<ChildItems>
