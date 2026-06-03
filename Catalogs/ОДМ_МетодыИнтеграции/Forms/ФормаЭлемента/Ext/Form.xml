@@ -87,9 +87,8 @@
 							<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="19"/>
 						</InputField>
 					</ChildItems>
+						</UsualGroup>
 				</UsualGroup>
-			</ChildItems>
-		</UsualGroup>
 		<Pages name="ГруппаСтраниц" id="20">
 			<ExtendedTooltip name="ГруппаСтраницРасширеннаяПодсказка" id="21"/>
 			<ChildItems>
@@ -389,6 +388,41 @@
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
+						<InputField name="БазаПолучатель" id="100">
+							<DataPath>БазаПолучатель</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>База-получатель</v8:content>
+								</v8:item>
+							</Title>
+							<ChoiceButton>true</ChoiceButton>
+							<ContextMenu name="БазаПолучательКонтекстноеМеню" id="101"/>
+							<ExtendedTooltip name="БазаПолучательРасширеннаяПодсказка" id="102"/>
+						</InputField>
+						<UsualGroup name="ГруппаКнопкиInvoke" id="103">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Действия</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаКнопкиInvokeРасширеннаяПодсказка" id="104"/>
+							<ChildItems>
+								<Button name="ПоставитьВОчередь" id="105">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ПоставитьВОчередь</CommandName>
+									<ExtendedTooltip name="ПоставитьВОчередьРасширеннаяПодсказка" id="106"/>
+								</Button>
+								<Button name="ОтправитьВБазу" id="107">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ОтправитьВБазу</CommandName>
+									<ExtendedTooltip name="ОтправитьВБазуРасширеннаяПодсказка" id="108"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</Page>
 			</ChildItems>
@@ -402,8 +436,43 @@
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
 		</Attribute>
+		<Attribute name="БазаПолучатель" id="99">
+			<Type>
+				<v8:Type>cfg:CatalogRef.ОДМ_БазыДанных</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
+		<Command name="ПоставитьВОчередь" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>В очередь</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поставить задачу invoke в очередь регламентного задания</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПоставитьВОчередь</Action>
+		</Command>
+		<Command name="ОтправитьВБазу" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить invoke в выбранную базу через регламентное задание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьВБазу</Action>
+		</Command>
 		<Command name="СформироватьПримерЗапроса" id="1">
 			<Title>
 				<v8:item>
