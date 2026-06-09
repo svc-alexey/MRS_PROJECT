@@ -154,6 +154,17 @@
 											<ContextMenu name="БазаПолучательКонтекстноеМеню" id="101"/>
 											<ExtendedTooltip name="БазаПолучательРасширеннаяПодсказка" id="102"/>
 										</InputField>
+										<InputField name="КодШаблонаПолучателя" id="108">
+											<DataPath>КодШаблонаПолучателя</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Код шаблона у получателя</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="КодШаблонаПолучателяКонтекстноеМеню" id="109"/>
+											<ExtendedTooltip name="КодШаблонаПолучателяРасширеннаяПодсказка" id="110"/>
+										</InputField>
 										<InputField name="НаправлениеОбмена" id="86">
 											<DataPath>Объект.НаправлениеОбмена</DataPath>
 											<DropListButton>true</DropListButton>
@@ -189,10 +200,38 @@
 											<ContextMenu name="НаправлениеОбменаКонтекстноеМеню" id="87"/>
 											<ExtendedTooltip name="НаправлениеОбменаРасширеннаяПодсказка" id="88"/>
 										</InputField>
+										<CheckBoxField name="ПереиспользуемаяЗадача" id="117">
+											<DataPath>ПереиспользуемаяЗадача</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Переиспользуемая</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>После выполнения задача вернётся в очередь</v8:content>
+												</v8:item>
+											</ToolTip>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ПереиспользуемаяЗадачаКонтекстноеМеню" id="118"/>
+											<ExtendedTooltip name="ПереиспользуемаяЗадачаРасширеннаяПодсказка" id="119"/>
+										</CheckBoxField>
 										<Button name="ПоставитьВОчередь" id="105">
 											<Type>UsualButton</Type>
 											<CommandName>Form.Command.ПоставитьВОчередь</CommandName>
 											<ExtendedTooltip name="ПоставитьВОчередьРасширеннаяПодсказка" id="106"/>
+										</Button>
+										<Button name="ВыполнитьСинхронно" id="111">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ВыполнитьСинхронно</CommandName>
+											<ExtendedTooltip name="ВыполнитьСинхронноРасширеннаяПодсказка" id="112"/>
+										</Button>
+										<Button name="ОтправитьВБазу" id="113">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ОтправитьВБазу</CommandName>
+											<ExtendedTooltip name="ОтправитьВБазуРасширеннаяПодсказка" id="114"/>
 										</Button>
 									</ChildItems>
 								</UsualGroup>
@@ -450,6 +489,75 @@
 						</UsualGroup>
 					</ChildItems>
 				</Page>
+				<Page name="СтраницаЗаполнениеПараметров" id="120">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заполнение параметров</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заполните значения параметров и соберите JSON</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаЗаполнениеПараметровРасширеннаяПодсказка" id="121"/>
+					<ChildItems>
+						<Button name="ЗаполнитьИзТЧ" id="122">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ЗаполнитьИзТЧ</CommandName>
+							<ExtendedTooltip name="ЗаполнитьИзТЧРасширеннаяПодсказка" id="123"/>
+						</Button>
+						<Button name="СобратьJSON" id="124">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.СобратьJSON</CommandName>
+							<ExtendedTooltip name="СобратьJSONРасширеннаяПодсказка" id="125"/>
+						</Button>
+						<Table name="ТаблицаПараметров" id="126">
+							<DataPath>_ОДМ_ТаблицаПараметров</DataPath>
+							<AutoCommandBar name="ТаблицаПараметровКоманднаяПанель" id="127"/>
+							<ExtendedTooltip name="ТаблицаПараметровРасширеннаяПодсказка" id="128"/>
+							<ChildItems>
+								<InputField name="ТаблицаПараметровИмяПараметра" id="129">
+									<DataPath>_ОДМ_ТаблицаПараметров.ИмяПараметра</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Параметр</v8:content>
+										</v8:item>
+									</Title>
+									<ReadOnly>true</ReadOnly>
+									<ContextMenu name="ТаблицаПараметровИмяПараметраКонтекстноеМеню" id="130"/>
+									<ExtendedTooltip name="ТаблицаПараметровИмяПараметраРасширеннаяПодсказка" id="131"/>
+								</InputField>
+								<InputField name="ТаблицаПараметровТип" id="132">
+									<DataPath>_ОДМ_ТаблицаПараметров.Тип</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Тип</v8:content>
+										</v8:item>
+									</Title>
+									<ReadOnly>true</ReadOnly>
+									<ContextMenu name="ТаблицаПараметровТипКонтекстноеМеню" id="133"/>
+									<ExtendedTooltip name="ТаблицаПараметровТипРасширеннаяПодсказка" id="134"/>
+								</InputField>
+								<InputField name="ТаблицаПараметровЗначение" id="135">
+									<DataPath>_ОДМ_ТаблицаПараметров.Значение</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Значение</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ТаблицаПараметровЗначениеКонтекстноеМеню" id="136"/>
+									<ExtendedTooltip name="ТаблицаПараметровЗначениеРасширеннаяПодсказка" id="137"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
 			</ChildItems>
 		</Pages>
 	</ChildItems>
@@ -464,6 +572,25 @@
 		<Attribute name="БазаПолучатель" id="99">
 			<Type>
 				<v8:Type>cfg:CatalogRef.ОДМ_БазыДанных</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="КодШаблонаПолучателя" id="107">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<StringQualifiers>
+					<Length>50</Length>
+					<AllowedLength>Variable</AllowedLength>
+				</StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПереиспользуемаяЗадача" id="115">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="_ОДМ_ТаблицаПараметров" id="116">
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
@@ -497,6 +624,66 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СформироватьПримерЗапроса</Action>
+		</Command>
+		<Command name="ОтправитьВБазу" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить в базу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поставить задачу invoke в очередь отправки в выбранную базу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьВБазу</Action>
+		</Command>
+		<Command name="ВыполнитьСинхронно" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить синхронно</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тестовый прогон: отправить invoke и показать ответ сразу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьСинхронно</Action>
+		</Command>
+		<Command name="ЗаполнитьИзТЧ" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить из ТЧ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить таблицу параметров из ВходныеПараметры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьИзТЧ</Action>
+		</Command>
+		<Command name="СобратьJSON" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Собрать JSON</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Собрать JSON из заполненных параметров</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СобратьJSON</Action>
 		</Command>
 	</Commands>
 </Form>
