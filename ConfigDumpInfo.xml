@@ -49,7 +49,7 @@
 			<Metadata name="Catalog.ОДМ_МетодыИнтеграции.TabularSection.ВходныеПараметры.Attribute.Обязательный" id="eb2ab6ea-0b0e-42d4-9422-ad82db066c80"/>
 		</Metadata>
 		<Metadata name="Catalog.ОДМ_МетодыИнтеграции.Form.ФормаЭлемента" id="8a3711e7-4602-4fb1-a2fd-2770cf573174" configVersion="f58dc090ccf2fe6d0c94d1684545337952f85a65"/>
-		<Metadata name="Catalog.ОДМ_МетодыИнтеграции.Form.ФормаЭлемента.Form" id="8a3711e7-4602-4fb1-a2fd-2770cf573174.0" configVersion="05dc805dbf6e797b6af4f23d94e7dc02aa797970"/>
+		<Metadata name="Catalog.ОДМ_МетодыИнтеграции.Form.ФормаЭлемента.Form" id="8a3711e7-4602-4fb1-a2fd-2770cf573174.0" configVersion="1d8c41f326ef9dc399b5088b8b8dd6a61af3d341"/>
 		<Metadata name="Catalog.ОДМ_НастройкиОбмена" id="7363e7b1-4b0e-4715-b8dd-be26b1ff2ddb" configVersion="64a4ec7ec1dd9bfe35f25c3879a684912642b03f">
 			<Metadata name="Catalog.ОДМ_НастройкиОбмена.Attribute.БазаДанных" id="432d3b72-77cd-423c-8fdb-6183d1605226"/>
 			<Metadata name="Catalog.ОДМ_НастройкиОбмена.Attribute.ПравилаРегистрации" id="65880b31-2cf6-4c95-a83c-d9638cbfa5f2"/>
@@ -66,7 +66,7 @@
 		<Metadata name="CommonModule.ОДМ_ВнутренниеМетоды_ВызовСервера" id="f2ec1782-fcf1-4475-bf29-a1ad158a0247" configVersion="b7b61493fc1dcdf2beaa1eff45db08a0be472c4b"/>
 		<Metadata name="CommonModule.ОДМ_ВнутренниеМетоды_ВызовСервера.Module" id="f2ec1782-fcf1-4475-bf29-a1ad158a0247.0" configVersion="af8608375370a1ac18e39804ec151d55e550df36"/>
 		<Metadata name="CommonModule.ОДМ_ОбменДанными" id="81563160-082e-45ea-8f72-5bb2ab21b144" configVersion="30c3d1b31579a23bde3474c20c001dc81e72fcaa"/>
-		<Metadata name="CommonModule.ОДМ_ОбменДанными.Module" id="81563160-082e-45ea-8f72-5bb2ab21b144.0" configVersion="f12a2ab101077eee7022419ed18dbd7f32339d3d"/>
+		<Metadata name="CommonModule.ОДМ_ОбменДанными.Module" id="81563160-082e-45ea-8f72-5bb2ab21b144.0" configVersion="02aaf93c5d4e25e7a971d73fc7fa3f4b447c5d22"/>
 		<Metadata name="CommonModule.ОДМ_ОбменДанными_Клиент" id="822426e0-201c-4a0a-b9be-095019a123a6" configVersion="6a7e966319e3e5278ce5efc184b67240055f6f2a"/>
 		<Metadata name="CommonModule.ОДМ_ОбменДанными_Клиент.Module" id="822426e0-201c-4a0a-b9be-095019a123a6.0" configVersion="a3cf090c6823f1f7bf5a9113cef1bf1430f8995c"/>
 		<Metadata name="CommonModule.ОДМ_ОбменДанными_Переопределяемый" id="9cbaeff5-85ce-496b-a220-9abfd9a9fabe" configVersion="7a8fa60a0e2ccbfabb42cb6702e749e262f9c24a"/>
@@ -78,7 +78,7 @@
 		<Metadata name="CommonModule.ОДМ_ПодпискиНаСобытия" id="7afa8f67-1181-40df-9bfb-66c5acd991a0" configVersion="edd61c9259f5d3c47e6016516bee9c1fe0ff55b6"/>
 		<Metadata name="CommonModule.ОДМ_ПодпискиНаСобытия.Module" id="7afa8f67-1181-40df-9bfb-66c5acd991a0.0" configVersion="c2858b7dc8b1be7abc5d35571bec2d644a8ffef1"/>
 		<Metadata name="CommonModule.ОДМ_РегламентныеЗадания" id="9cdcb6e1-8cbd-465c-8e7b-1f2ceeb32ab5" configVersion="c3b8c059c84c338818db292570abb1fa16515aba"/>
-		<Metadata name="CommonModule.ОДМ_РегламентныеЗадания.Module" id="9cdcb6e1-8cbd-465c-8e7b-1f2ceeb32ab5.0" configVersion="ea175b426314dbbfdf08d78959450bd0ba65569c"/>
+		<Metadata name="CommonModule.ОДМ_РегламентныеЗадания.Module" id="9cdcb6e1-8cbd-465c-8e7b-1f2ceeb32ab5.0" configVersion="027441bae98d45a2e7b8234501d30646c827d9ae"/>
 		<Metadata name="CommonModule.ОДМ_УправлениеФормами_Клиент" id="21f7da46-ecc8-4ba5-8ae1-1bb769c553b6" configVersion="ae472305c19e531ec107bb62619989cf413bdf08"/>
 		<Metadata name="CommonModule.ОДМ_УправлениеФормами_Клиент.Module" id="21f7da46-ecc8-4ba5-8ae1-1bb769c553b6.0" configVersion="d2c43a6f67e70d85a7909c4f4f45561eb020c441"/>
 		<Metadata name="CommonModule.ОДМ_УправлениеФормами_Клиент_ПовтИсп" id="872271e2-903d-45b4-89b8-799b4fb448b8" configVersion="3981bf2e23f4b673c7324d6d35bc8b6be93528d8"/>
@@ -102,7 +102,7 @@
 			<Metadata name="DataProcessor.ОДМ_xchg.Attribute.АдресСервера" id="e5029396-5cb7-4d0e-8462-ac6e57d2d05c"/>
 			<Metadata name="DataProcessor.ОДМ_xchg.Attribute.Токен" id="f61d5825-9524-4940-abbe-1c4e5bb176d3"/>
 		</Metadata>
-		<Metadata name="DataProcessor.ОДМ_xchg.ObjectModule" id="9a7699ca-9de0-462c-b0bb-cc8d650c0435.0" configVersion="b3366811f198d44073b53987b184d011d15b7b0e"/>
+		<Metadata name="DataProcessor.ОДМ_xchg.ObjectModule" id="9a7699ca-9de0-462c-b0bb-cc8d650c0435.0" configVersion="7faf66382491ce3c4765cded388d5499035459bd"/>
 		<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML" id="1cd42f92-010f-4372-a6d4-fe67f5ddcb8b" configVersion="13701452dfccdb812047a79bc216dfa688fdbbea">
 			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ОптимизированнаяЗаписьОбъектов" id="0151312b-a853-4c73-85a5-2ffa644456b7"/>
 			<Metadata name="DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML.Attribute.ОбработкиНастройкиЗагрузки" id="01e18168-7bde-48fc-8252-3adada4e0571"/>
