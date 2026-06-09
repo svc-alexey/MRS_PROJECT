@@ -110,7 +110,7 @@
 								</v8:item>
 							</Title>
 							<HorizontalStretch>true</HorizontalStretch>
-							<Group>Vertical</Group>
+							<Group>AlwaysHorizontal</Group>
 							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаШаблонРасширеннаяПодсказка" id="64"/>
 							<ChildItems>
@@ -130,6 +130,77 @@
 									<ContextMenu name="ШаблонКонтекстноеМеню" id="66"/>
 									<ExtendedTooltip name="ШаблонРасширеннаяПодсказка" id="67"/>
 								</InputField>
+								<UsualGroup name="ГруппаКнопкиInvoke" id="103">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Действия</v8:content>
+										</v8:item>
+									</Title>
+									<Width>10</Width>
+									<Group>Vertical</Group>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаКнопкиInvokeРасширеннаяПодсказка" id="104"/>
+									<ChildItems>
+										<InputField name="БазаПолучатель" id="100">
+											<DataPath>БазаПолучатель</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>База-получатель</v8:content>
+												</v8:item>
+											</Title>
+											<ChoiceButton>true</ChoiceButton>
+											<ContextMenu name="БазаПолучательКонтекстноеМеню" id="101"/>
+											<ExtendedTooltip name="БазаПолучательРасширеннаяПодсказка" id="102"/>
+										</InputField>
+										<InputField name="НаправлениеОбмена" id="86">
+											<DataPath>Объект.НаправлениеОбмена</DataPath>
+											<DropListButton>true</DropListButton>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ChoiceList>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Отправка</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xs:string">Отправка</Value>
+													</xr:Value>
+												</xr:Item>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Получение</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xs:string">Получение</Value>
+													</xr:Value>
+												</xr:Item>
+											</ChoiceList>
+											<ContextMenu name="НаправлениеОбменаКонтекстноеМеню" id="87"/>
+											<ExtendedTooltip name="НаправлениеОбменаРасширеннаяПодсказка" id="88"/>
+										</InputField>
+										<Button name="ПоставитьВОчередь" id="105">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ПоставитьВОчередь</CommandName>
+											<ExtendedTooltip name="ПоставитьВОчередьРасширеннаяПодсказка" id="106"/>
+										</Button>
+										<Button name="ОтправитьВБазу" id="107">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ОтправитьВБазу</CommandName>
+											<ExtendedTooltip name="ОтправитьВБазуРасширеннаяПодсказка" id="108"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 					</ChildItems>
@@ -333,13 +404,6 @@
 					</ToolTip>
 					<ExtendedTooltip name="СтраницаПредпросмотрJSONРасширеннаяПодсказка" id="85"/>
 					<ChildItems>
-						<InputField name="НаправлениеОбмена" id="86">
-							<DataPath>Объект.НаправлениеОбмена</DataPath>
-							<DropListButton>true</DropListButton>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-							<ContextMenu name="НаправлениеОбменаКонтекстноеМеню" id="87"/>
-							<ExtendedTooltip name="НаправлениеОбменаРасширеннаяПодсказка" id="88"/>
-						</InputField>
 						<Button name="СформироватьПримерЗапроса" id="89">
 							<Type>UsualButton</Type>
 							<CommandName>Form.Command.СформироватьПримерЗапроса</CommandName>
@@ -387,41 +451,6 @@
 									<ContextMenu name="ПримерJSONОтветаКонтекстноеМеню" id="97"/>
 									<ExtendedTooltip name="ПримерJSONОтветаРасширеннаяПодсказка" id="98"/>
 								</InputField>
-							</ChildItems>
-						</UsualGroup>
-						<InputField name="БазаПолучатель" id="100">
-							<DataPath>БазаПолучатель</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>База-получатель</v8:content>
-								</v8:item>
-							</Title>
-							<ChoiceButton>true</ChoiceButton>
-							<ContextMenu name="БазаПолучательКонтекстноеМеню" id="101"/>
-							<ExtendedTooltip name="БазаПолучательРасширеннаяПодсказка" id="102"/>
-						</InputField>
-						<UsualGroup name="ГруппаКнопкиInvoke" id="103">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Действия</v8:content>
-								</v8:item>
-							</Title>
-							<Group>Horizontal</Group>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаКнопкиInvokeРасширеннаяПодсказка" id="104"/>
-							<ChildItems>
-								<Button name="ПоставитьВОчередь" id="105">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ПоставитьВОчередь</CommandName>
-									<ExtendedTooltip name="ПоставитьВОчередьРасширеннаяПодсказка" id="106"/>
-								</Button>
-								<Button name="ОтправитьВБазу" id="107">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ОтправитьВБазу</CommandName>
-									<ExtendedTooltip name="ОтправитьВБазуРасширеннаяПодсказка" id="108"/>
-								</Button>
 							</ChildItems>
 						</UsualGroup>
 					</ChildItems>

@@ -20,30 +20,30 @@
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОДМ_ОбменДанными</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Role.ОДМ_DataExchange</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОДМ_СправочникиОбменПередЗаписью</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ОДМ_ОбработкаЗадач</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОДМ_ЗадачиОбмена</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.ОДМ_xchg</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.ОДМ_Регистры</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Enum.ОДМ_СтатусыЗадач</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОДМ_БазыДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОДМ_ОбменДанными_Клиент</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОДМ_ОбменДанными_ПовтИсп</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОДМ_ОбщегоНазначения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОДМ_ПодпискиНаСобытия</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОДМ_РегламентныеЗадания</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ОДМ_ОсновнаяРоль</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОДМ_БазыДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ОДМ_DataExchange</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОДМ_ПодпискиНаСобытия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОДМ_СправочникиОбменПередЗаписью</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОДМ_ХТТПЗапросы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ОДМ_ОбработкаЗадач</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ОДМ_СтатусыЗадач</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОДМ_ЗадачиОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОДМ_МетодыИнтеграции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.ОДМ_xchg</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОДМ_ОбменДанными_Переопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.ОДМ_Регистры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОДМ_ОбменДанными_ПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОДМ_ВнутренниеМетоды</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОДМ_ОбщегоНазначения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОДМ_РегламентныеЗадания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОДМ_xchg</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ОДМ_ОбработкаУстаревшихЗадач</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ОДМ_ЛоготипПодсистемы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОДМ_xchg</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОДМ_УниверсальныйОбменДаннымиXML</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОДМ_ВнутренниеМетоды</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОДМ_ОбменДанными_Переопределяемый</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОДМ_ОбъектПриЗаписи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОДМ_НастройкиОбмена</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ОДМ_ХТТПЗапросы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОДМ_МетодыИнтеграции</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
