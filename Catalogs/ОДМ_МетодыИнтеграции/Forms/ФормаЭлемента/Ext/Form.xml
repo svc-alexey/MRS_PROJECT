@@ -514,47 +514,10 @@
 							<CommandName>Form.Command.СобратьJSON</CommandName>
 							<ExtendedTooltip name="СобратьJSONРасширеннаяПодсказка" id="125"/>
 						</Button>
-						<Table name="ТаблицаПараметров" id="126">
+						<Table name="ТаблицаПараметровЗаглушка" id="126">
 							<DataPath>_ОДМ_ТаблицаПараметров</DataPath>
 							<AutoCommandBar name="ТаблицаПараметровКоманднаяПанель" id="127"/>
 							<ExtendedTooltip name="ТаблицаПараметровРасширеннаяПодсказка" id="128"/>
-							<ChildItems>
-								<InputField name="ТаблицаПараметровИмяПараметра" id="129">
-									<DataPath>_ОДМ_ТаблицаПараметров.ИмяПараметра</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Параметр</v8:content>
-										</v8:item>
-									</Title>
-									<ReadOnly>true</ReadOnly>
-									<ContextMenu name="ТаблицаПараметровИмяПараметраКонтекстноеМеню" id="130"/>
-									<ExtendedTooltip name="ТаблицаПараметровИмяПараметраРасширеннаяПодсказка" id="131"/>
-								</InputField>
-								<InputField name="ТаблицаПараметровТип" id="132">
-									<DataPath>_ОДМ_ТаблицаПараметров.Тип</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Тип</v8:content>
-										</v8:item>
-									</Title>
-									<ReadOnly>true</ReadOnly>
-									<ContextMenu name="ТаблицаПараметровТипКонтекстноеМеню" id="133"/>
-									<ExtendedTooltip name="ТаблицаПараметровТипРасширеннаяПодсказка" id="134"/>
-								</InputField>
-								<InputField name="ТаблицаПараметровЗначение" id="135">
-									<DataPath>_ОДМ_ТаблицаПараметров.Значение</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Значение</v8:content>
-										</v8:item>
-									</Title>
-									<ContextMenu name="ТаблицаПараметровЗначениеКонтекстноеМеню" id="136"/>
-									<ExtendedTooltip name="ТаблицаПараметровЗначениеРасширеннаяПодсказка" id="137"/>
-								</InputField>
-							</ChildItems>
 						</Table>
 					</ChildItems>
 				</Page>
