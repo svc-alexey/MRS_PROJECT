@@ -515,7 +515,7 @@
 							<ExtendedTooltip name="СобратьJSONРасширеннаяПодсказка" id="125"/>
 						</Button>
 						<Table name="ТаблицаПараметровЗаглушка" id="126">
-							<DataPath>_ОДМ_ТаблицаПараметров</DataPath>
+							<DataPath>ТаблицаПараметров</DataPath>
 							<AutoCommandBar name="ТаблицаПараметровКоманднаяПанель" id="127"/>
 							<ExtendedTooltip name="ТаблицаПараметровРасширеннаяПодсказка" id="128"/>
 						</Table>
@@ -551,7 +551,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="_ОДМ_ТаблицаПараметров" id="116">
+		<Attribute name="ТаблицаПараметров" id="116">
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
 			</Type>
