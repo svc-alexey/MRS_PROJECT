@@ -556,38 +556,6 @@
 				<v8:Type>v8:ValueTable</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="_ОДМ_Шаблон" id="129">
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<StringQualifiers>
-					<Length>1000</Length>
-					<AllowedLength>Variable</AllowedLength>
-				</StringQualifiers>
-			</Type>
-		</Attribute>
-		<Attribute name="_ОДМ_ПримерJSONЗапроса" id="130">
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<StringQualifiers>
-					<Length>1000</Length>
-					<AllowedLength>Variable</AllowedLength>
-				</StringQualifiers>
-			</Type>
-		</Attribute>
-		<Attribute name="_ОДМ_ПримерJSONОтвета" id="131">
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<StringQualifiers>
-					<Length>1000</Length>
-					<AllowedLength>Variable</AllowedLength>
-				</StringQualifiers>
-			</Type>
-		</Attribute>
-		<Attribute name="_ОДМ_РедакторыJSON" id="132">
-			<Type>
-				<v8:Type>v8:ValueList</v8:Type>
-			</Type>
-		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ПоставитьВОчередь" id="2">
