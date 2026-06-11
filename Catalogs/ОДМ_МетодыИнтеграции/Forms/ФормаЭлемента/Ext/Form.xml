@@ -583,6 +583,11 @@
 				</StringQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="_ОДМ_РедакторыJSON" id="132">
+			<Type>
+				<v8:Type>v8:ValueList</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ПоставитьВОчередь" id="2">
