@@ -551,7 +551,34 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ТаблицаПараметров" id="116">
+		<Attribute name="Шаблон" id="116">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<StringQualifiers>
+					<Length>0</Length>
+					<AllowedLength>Variable</AllowedLength>
+				</StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПримерJSONЗапроса" id="117">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<StringQualifiers>
+					<Length>0</Length>
+					<AllowedLength>Variable</AllowedLength>
+				</StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПримерJSONОтвета" id="118">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<StringQualifiers>
+					<Length>0</Length>
+					<AllowedLength>Variable</AllowedLength>
+				</StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТаблицаПараметров" id="119">
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
 			</Type>
